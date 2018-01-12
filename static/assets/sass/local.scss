@@ -64,23 +64,25 @@ $image-background	: url('../../../images/background.png');
     background: #666;
     height: auto;
     padding: 2px;
+		width: 300px;
 
     li {
       &.active {
         a {
-          color:#5DB0E6;
-          text-decoration:none;
+					background: #555;
+          color: #5DB0E6;
+          text-decoration: none;
         }
       }
 
       a {
-        color:#eeeedd;
-        background:#333;
-        padding:5px;
-        display:block;
+        background: #333;
+				color: #eeeedd;
+        display: block;
+        padding: 5px 5px 5px 8px;
 
         &:hover {
-          text-decoration: none;
+          background-color: #555;
         }
       }
     }

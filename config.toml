@@ -1,0 +1,136 @@
+baseURL = "http://rorasuketo.win/"
+languageCode = "en-us"
+title = "ro-ra-su-ke-to OST"
+theme = "hugo-split-theme"
+
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "rorasuketo ost"
+  description = ""
+  shareImage = "images/social.jpg"
+  twitterHandle = ""
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2018 Codana.me"
+
+  # Section - Content
+  [params.content]
+    name = "chiptune derby"
+    tagline = "Rorasuketo OST"
+    bio = "Rorasuketo is a ghost sports RPG for Windows, made by Candice Norcross. This is the chiptune soundtrack by Michael Chadwick."
+
+    [params.content.audio]
+      enable = true
+      autoplay = false
+      mute = false
+      #file = "/sounds/apartment.mp3"
+      #soundcloudId = "258744494"
+      #bandcampId = "156001537"
+      #bandcampUrl = "http://nebyoolae.bandcamp.com/album/close-to-the-metal"
+      #bandcampUrlTitle = "Close to the Metal by Nebyoolae"
+
+      [params.content.audio.playlist]
+        enable = true
+
+        [params.content.audio.playlist.file1]
+          url = "/sounds/apartment.mp3"
+          name = "apartment"
+
+        [params.content.audio.playlist.file2]
+          url = "/sounds/derby-dj-1.mp3"
+          name = "derby dj 1"
+
+        [params.content.audio.playlist.file3]
+          url = "/sounds/hospital-quiet.mp3"
+          name = "hospital-quiet"
+
+        [params.content.audio.playlist.file4]
+          url = "/sounds/main_street_usa.mp3"
+          name = "main street usa"
+
+        [params.content.audio.playlist.file5]
+          url = "/sounds/respite.mp3"
+          name = "respite"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/rorasuketo-title.png"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/test.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "#"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "#"
+
+      [[params.links.list1.link]]
+        text = "Newsletter"
+        url = "#"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "#"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "#"
+
+      [[params.links.list2.link]]
+        text = "Dribbble"
+        url = "#"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        text = "Link One"
+        url = "#"
+
+      [[params.links.list3.link]]
+        text = "Link Two"
+        url = "#"
+
+      [[params.links.list3.link]]
+        text = "Link Three"
+        url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split

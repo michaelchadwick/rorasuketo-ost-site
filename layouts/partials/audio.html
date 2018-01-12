@@ -1,0 +1,61 @@
+<div class="split-audio">
+
+  <!-- Soundcloud Audio -->
+  {{ if .Site.Params.content.audio.soundcloudId }}
+
+    <iframe class="audio-content" scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ .Site.Params.content.audio.soundcloudId }}&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;visual=true"></iframe>
+
+  <!-- Bandcamp Audio -->
+  {{ else if .Site.Params.content.audio.bandcampId }}
+
+    <iframe style="width: 100%; height: 472px;" class="audio-content" src="https://bandcamp.com/EmbeddedPlayer/album={{ .Site.Params.content.audio.bandcampId }}/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="{{ .Site.Params.content.audio.bandcampUrl }}">{{ .Site.Params.content.audio.bandcampUrlTitle }}</a></iframe>
+
+  <!-- Self-Hosted Audio - Single File -->
+  {{ else if .Site.Params.content.audio.file }}
+
+    <audio class="audio" controls loop
+      {{ if .Site.Params.content.audio.autoplay }} autoplay{{ end }}
+      {{ if .Site.Params.content.audio.mute }} muted{{ end }}>
+      <source src="{{ .Site.Params.content.audio.file }}" type="audio/mpeg">
+    </audio>
+
+  <!-- Self-Hosted Audio - Playlist -->
+  {{ else if .Site.Params.content.audio.playlist.enable }}
+
+    <audio class="audio" controls>
+      <source src="/sounds/apartment.mp3">
+      Your browser doesn't support HTML5 :'(
+    </audio>
+
+    <ul id="playlist">
+      <li class="active">
+        <a href="{{ .Site.Params.content.audio.playlist.file1.url }}">
+          {{ .Site.Params.content.audio.playlist.file1.name }}
+        </a>
+      </li>
+      <li>
+        <a href="{{ .Site.Params.content.audio.playlist.file2.url }}">
+          {{ .Site.Params.content.audio.playlist.file2.name }}
+        </a>
+      </li>
+      <li>
+        <a href="{{ .Site.Params.content.audio.playlist.file3.url }}">
+          {{ .Site.Params.content.audio.playlist.file3.name }}
+        </a>
+      </li>
+      <li>
+        <a href="{{ .Site.Params.content.audio.playlist.file4.url }}">
+          {{ .Site.Params.content.audio.playlist.file4.name }}
+        </a>
+      </li>
+      <li>
+        <a href="{{ .Site.Params.content.audio.playlist.file5.url }}">
+          {{ .Site.Params.content.audio.playlist.file5.name }}
+        </a>
+      </li>
+
+  </ul>
+
+  {{ end }}
+
+</div>

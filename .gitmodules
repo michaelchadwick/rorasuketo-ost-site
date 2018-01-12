@@ -1,0 +1,3 @@
+[submodule "themes/hugo-split-theme"]
+	path = themes/hugo-split-theme
+	url = git@github.com:christianmendoza/hugo-split-theme.git

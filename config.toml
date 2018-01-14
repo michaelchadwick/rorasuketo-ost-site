@@ -50,14 +50,26 @@ googleAnalytics = ""
           name = "derby dj 1"
 
         [params.content.audio.playlist.file3]
+          url = "/sounds/derby-dj-2.mp3"
+          name = "derby dj 2"
+
+        [params.content.audio.playlist.file4]
+          url = "/sounds/hospital-plot.mp3"
+          name = "hospital-plot"
+
+        [params.content.audio.playlist.file5]
           url = "/sounds/hospital-quiet.mp3"
           name = "hospital-quiet"
 
-        [params.content.audio.playlist.file4]
+        [params.content.audio.playlist.file6]
+          url = "/sounds/lost.mp3"
+          name = "lost"
+
+        [params.content.audio.playlist.file7]
           url = "/sounds/main_street_usa.mp3"
           name = "main street usa"
 
-        [params.content.audio.playlist.file5]
+        [params.content.audio.playlist.file8]
           url = "/sounds/respite.mp3"
           name = "respite"
 

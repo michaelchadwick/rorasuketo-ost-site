@@ -24,52 +24,52 @@ googleAnalytics = ""
 
   # Section - Content
   [params.content]
-    name = "chiptune derby"
-    tagline = "Rorasuketo OST"
-    bio = "Rorasuketo is a ghost sports RPG for Windows, made by Candice Norcross. This is the chiptune soundtrack by Michael Chadwick."
+    name = "Rorasuketo OST"
+    tagline = "Chiptune. Derby."
+    bio = "Rorasuketo is a ghost sports adventure made by Candice Norcross. This is the chiptune soundtrack by Michael Chadwick."
 
     [params.content.audio]
       enable = true
       autoplay = false
       mute = false
       #file = "/sounds/apartment.mp3"
+      playlist = true
       #soundcloudId = "258744494"
       #bandcampId = "156001537"
       #bandcampUrl = "http://nebyoolae.bandcamp.com/album/close-to-the-metal"
       #bandcampUrlTitle = "Close to the Metal by Nebyoolae"
 
-      [params.content.audio.playlist]
-        enable = true
-
-        [params.content.audio.playlist.file1]
+      [params.content.audio.tracks]
+        [params.content.audio.tracks.track1]
+          active = true
           url = "/sounds/apartment.mp3"
           name = "apartment"
 
-        [params.content.audio.playlist.file2]
+        [params.content.audio.tracks.track2]
           url = "/sounds/derby-dj-1.mp3"
-          name = "derby dj 1"
+          name = "derby-dj-1"
 
-        [params.content.audio.playlist.file3]
+        [params.content.audio.tracks.track3]
           url = "/sounds/derby-dj-2.mp3"
-          name = "derby dj 2"
+          name = "derby-dj-2"
 
-        [params.content.audio.playlist.file4]
+        [params.content.audio.tracks.track4]
           url = "/sounds/hospital-plot.mp3"
           name = "hospital-plot"
 
-        [params.content.audio.playlist.file5]
+        [params.content.audio.tracks.track5]
           url = "/sounds/hospital-quiet.mp3"
           name = "hospital-quiet"
 
-        [params.content.audio.playlist.file6]
+        [params.content.audio.tracks.track6]
           url = "/sounds/lost.mp3"
           name = "lost"
 
-        [params.content.audio.playlist.file7]
+        [params.content.audio.tracks.track7]
           url = "/sounds/main_street_usa.mp3"
-          name = "main street usa"
+          name = "main-street-usa"
 
-        [params.content.audio.playlist.file8]
+        [params.content.audio.tracks.track8]
           url = "/sounds/respite.mp3"
           name = "respite"
 
@@ -79,7 +79,7 @@ googleAnalytics = ""
     # Image
     [params.visual.image]
       enable = true
-      file = "images/rorasuketo-title.png"
+      file = "images/rorasuketo-screen.png"
       position = "center center"
 
     # Video
@@ -92,55 +92,52 @@ googleAnalytics = ""
   # Links
   #
   # Links List #1
+
   [[params.links]]
     [params.links.list1]
-      heading = "Connect"
+      heading = "Game"
 
       [[params.links.list1.link]]
-        text = "Blog"
+        text = "Game Home"
         url = "#"
 
       [[params.links.list1.link]]
-        text = "Email"
+        text = "Ghost Sports"
         url = "#"
 
       [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
+        text = "Derby"
+        url = "https://en.wikipedia.org/wiki/Roller_derby"
 
   # Links List #2
   [[params.links]]
     [params.links.list2]
-      heading = "Social"
+      heading = "Composer"
 
       [[params.links.list2.link]]
-        text = "Twitter"
-        url = "#"
+        text = "MC.Info"
+        url = "http://michaelchadwick.info"
 
       [[params.links.list2.link]]
-        text = "Instagram"
-        url = "#"
+        text = "Soundcloud"
+        url = "https://soundcloud.com/nebyoolae"
 
       [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
+        text = "Bandcamp"
+        url = "http://nebyoolae.bandcamp.com"
 
   # Links List #3
   [[params.links]]
     [params.links.list3]
-      heading = "Network"
+      heading = "Social"
 
       [[params.links.list3.link]]
-        text = "Link One"
-        url = "#"
+        text = "Candice Norcross"
+        url = "https://www.facebook.com/candice.norcross"
 
       [[params.links.list3.link]]
-        text = "Link Two"
-        url = "#"
-
-      [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
+        text = "Michael Chadwick"
+        url = "https://www.facebook.com/michael.chadwick"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

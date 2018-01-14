@@ -24,7 +24,7 @@ $(function () {
     player.addEventListener('ended', function (e) {
       current++
 
-      if (current === len) {
+      if (current > len) {
         current = 0
         track = playlist.find('a')[0]
       } else {

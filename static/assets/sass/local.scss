@@ -1,38 +1,47 @@
-$image-background	: url('../../../images/background.png');
+$image-background  : url('../../../images/background.png');
 
-.split-intro {
-	font-size: 64px;
-  font-weight: 600;
-	letter-spacing: -2px;
-	line-height: 60px;
+#fullsingle {
+  overflow-x: hidden;
+}
 
-  h1 {
-    color: #47bec7;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.4px;
-    line-height: 16px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-  }
+.fs-split  {
+  .split-intro {
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 80px;
 
-  span {
-    &.tagline {
-      line-height: 4px;
+    h1 {
+      color: #47bec7;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+      line-height: 16px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    span {
+      &.tagline {
+        font-size: 60px;
+        line-height: 10px;
+      }
     }
   }
-}
 
-.split-bio {
-	font-family: 'Lora', serif;
-  line-height: 28px;
-	padding: 20px 0;
-}
+  .split-content {
+    overflow-x: hidden;
+  }
 
-.fs-split .split-image {
-  background-size: contain;
-  height: 100vh;
-  width: 50%;
+  .split-bio {
+    font-family: 'Lora', serif;
+    line-height: 29px;
+    padding: 20px 0;
+  }
+
+  .split-image {
+    background-size: cover;
+  }
 }
 
 //-------------------------------------------------------------------------------
@@ -40,10 +49,9 @@ $image-background	: url('../../../images/background.png');
 //-------------------------------------------------------------------------------
 
 .fs-split .split-audio {
-	//object-fit: contain;
-	//object-position: 50% 50%;
+  object-fit: contain;
+  object-position: 50% 50%;
   padding-bottom: 30px;
-	width: 100%;
 
   // Soundcloud/Bandcamp
   iframe {
@@ -57,19 +65,19 @@ $image-background	: url('../../../images/background.png');
   // Self-Hosted
 
   audio {
-
+    width: 100%;
   }
 
   #playlist {
     background: #666;
     height: auto;
     padding: 2px;
-		width: 300px;
+    width: auto;
 
     li {
       &.active {
         a {
-					background: #555;
+          background: #153950;
           color: #5DB0E6;
           text-decoration: none;
         }
@@ -77,7 +85,7 @@ $image-background	: url('../../../images/background.png');
 
       a {
         background: #333;
-				color: #eeeedd;
+        color: #eeeedd;
         display: block;
         padding: 5px 5px 5px 8px;
 

@@ -42,57 +42,46 @@ googleAnalytics = ""
       [params.content.audio.tracks]
         [params.content.audio.tracks.track01]
           active = true
-          url = "/sounds/mein-tema.mp3"
           name = "mein-tema"
           trans = "main theme"
 
         [params.content.audio.tracks.track02]
-          url = "/sounds/apato.mp3"
           name = "apato"
           trans = "apartment"
 
         [params.content.audio.tracks.track03]
-          url = "/sounds/meinsutoritoamerika.mp3"
           name = "meinsutoritoamerika"
           trans = "main street usa"
 
         [params.content.audio.tracks.track04]
-          url = "/sounds/lala-tema.mp3"
           name = "lala-tema"
           trans = "lala-theme"
 
         [params.content.audio.tracks.track05]
-          url = "/sounds/roradabi1.mp3"
           name = "roradabi1"
           trans = "roller derby 1"
 
         [params.content.audio.tracks.track06]
-          url = "/sounds/roradabi2.mp3"
           name = "roradabi2"
           trans = "roller derby 2"
 
         [params.content.audio.tracks.track07]
-          url = "/sounds/roradabi3.mp3"
           name = "roradabi3"
           trans = "roller derby 3"
 
         [params.content.audio.tracks.track08]
-          url = "/sounds/ushinawareta.mp3"
           name = "ushinawareta"
           trans = "lost"
 
         [params.content.audio.tracks.track09]
-          url = "/sounds/shinryosho-shizuka.mp3"
           name = "shinryosho-shizuka"
           trans = "clinic - quiet"
 
         [params.content.audio.tracks.track10]
-          url = "/sounds/shinryosho-sutori.mp3"
           name = "shinryosho-sutori"
           trans = "clinic - story/plot"
 
         [params.content.audio.tracks.track11]
-          url = "/sounds/yuyo.mp3"
           name = "yuyo"
           trans = "respite/rest"
 

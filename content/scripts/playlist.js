@@ -10,43 +10,50 @@ $(function () {
   var len = tracks.length - 1
   var track = null
 
-  init()
+  player.volume = 1.0
 
-  function init () {
-    player.volume = 1.0
+  playlist.on('click', 'a', function (e) {
+    e.preventDefault()
+    track = $(this)
+    current = track.parent().index()
+    play(track)
+  })
 
-    playlist.on('click', 'a', function (e) {
-      e.preventDefault()
-      track = $(this)
-      current = track.parent().index()
-      play(track)
-    })
+  rewind.on('click', function (e) {
+    goBack(e)
+  })
 
-    rewind.on('click', function (e) {
-      e.preventDefault()
+  forward.on('click', function (e) {
+    goForward(e)
+  })
+
+  player.addEventListener('ended', function (e) {
+    goForward(e)
+  })
+
+  function goForward (e) {
+    e.preventDefault()
+
+    if (current === len) {
+      current = 0
+    } else {
+      current = current + 1
+    }
+    changeTrack(current)
+  }
+
+  function goBack (e) {
+    e.preventDefault()
+
+    if (current === 0) {
+      current = len
+    } else {
       current = current - 1
-      changeTrack(current)
-    })
-
-    forward.on('click', function (e) {
-      e.preventDefault()
-      current = current + 1
-      changeTrack(current)
-    })
-
-    player.addEventListener('ended', function () {
-      current = current + 1
-      changeTrack(current)
-    })
+    }
+    changeTrack(current)
   }
 
   function changeTrack (current) {
-    if (current > len) {
-      current = 0
-    } else if (current < 0) {
-      current = len
-    }
-
     play($(playlist.find('a')[current]))
   }
 

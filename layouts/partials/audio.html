@@ -23,14 +23,19 @@
   {{ else if .Site.Params.content.audio.playlist }}
 
     <audio class="audio" controls>
-      <source src="/sounds/apartment.mp3">
+      <source src="{{ .Site.Params.content.audio.tracks.track01.url }}">
       Your browser doesn't support HTML5 :'(
     </audio>
+
+    <div id="audio-controls">
+      <button id="rewind">&lt;</button>
+      <button id="forward">&gt;</button>
+    </div>
 
     <ul id="playlist">
       {{ range $key, $track := .Site.Params.content.audio.tracks }}
 
-      <li {{ if $track.active }}class='active'{{ end }}><a href="{{ $track.url }}">{{ $track.name }}</a></li>
+      <li {{ if $track.active }}class='active'{{ end }}><a href="{{ $track.url }}" title="{{ $track.trans }}" alt="{{ $track.trans }}">{{ $track.name }}</a></li>
 
       {{ end }}
     </ul>

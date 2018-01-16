@@ -26,13 +26,13 @@ googleAnalytics = ""
   [params.content]
     name = "Rorasuketo OST"
     tagline = "Chiptune. Derby."
-    bio = "Rorasuketo is a ghost sports adventure made by Candice Norcross. This is the chiptune soundtrack by Michael Chadwick."
+    bio = "Rorasuketo is a ghost sports adventure made by Candice Norcross. Inspired and orchestrated by classic SNES sounds, Michael Chadwick wrote the soundtrack."
 
     [params.content.audio]
       enable = true
       autoplay = false
       mute = false
-      #file = "/sounds/apartment.mp3"
+      #file = "/sounds/apato.mp3"
       playlist = true
       #soundcloudId = "258744494"
       #bandcampId = "156001537"
@@ -40,38 +40,61 @@ googleAnalytics = ""
       #bandcampUrlTitle = "Close to the Metal by Nebyoolae"
 
       [params.content.audio.tracks]
-        [params.content.audio.tracks.track1]
+        [params.content.audio.tracks.track01]
           active = true
-          url = "/sounds/apartment.mp3"
-          name = "apartment"
+          url = "/sounds/mein-tema.mp3"
+          name = "mein-tema"
+          trans = "main theme"
 
-        [params.content.audio.tracks.track2]
-          url = "/sounds/derby-dj-1.mp3"
-          name = "derby-dj-1"
+        [params.content.audio.tracks.track02]
+          url = "/sounds/apato.mp3"
+          name = "apato"
+          trans = "apartment"
 
-        [params.content.audio.tracks.track3]
-          url = "/sounds/derby-dj-2.mp3"
-          name = "derby-dj-2"
+        [params.content.audio.tracks.track03]
+          url = "/sounds/meinsutoritoamerika.mp3"
+          name = "meinsutoritoamerika"
+          trans = "main street usa"
 
-        [params.content.audio.tracks.track4]
-          url = "/sounds/hospital-plot.mp3"
-          name = "hospital-plot"
+        [params.content.audio.tracks.track04]
+          url = "/sounds/lala-tema.mp3"
+          name = "lala-tema"
+          trans = "lala-theme"
 
-        [params.content.audio.tracks.track5]
-          url = "/sounds/hospital-quiet.mp3"
-          name = "hospital-quiet"
+        [params.content.audio.tracks.track05]
+          url = "/sounds/roradabi1.mp3"
+          name = "roradabi1"
+          trans = "roller derby 1"
 
-        [params.content.audio.tracks.track6]
-          url = "/sounds/lost.mp3"
-          name = "lost"
+        [params.content.audio.tracks.track06]
+          url = "/sounds/roradabi2.mp3"
+          name = "roradabi2"
+          trans = "roller derby 2"
 
-        [params.content.audio.tracks.track7]
-          url = "/sounds/main_street_usa.mp3"
-          name = "main-street-usa"
+        [params.content.audio.tracks.track07]
+          url = "/sounds/roradabi3.mp3"
+          name = "roradabi3"
+          trans = "roller derby 3"
 
-        [params.content.audio.tracks.track8]
-          url = "/sounds/respite.mp3"
-          name = "respite"
+        [params.content.audio.tracks.track08]
+          url = "/sounds/ushinawareta.mp3"
+          name = "ushinawareta"
+          trans = "lost"
+
+        [params.content.audio.tracks.track09]
+          url = "/sounds/shinryosho-shizuka.mp3"
+          name = "shinryosho-shizuka"
+          trans = "clinic - quiet"
+
+        [params.content.audio.tracks.track10]
+          url = "/sounds/shinryosho-sutori.mp3"
+          name = "shinryosho-sutori"
+          trans = "clinic - story/plot"
+
+        [params.content.audio.tracks.track11]
+          url = "/sounds/yuyo.mp3"
+          name = "yuyo"
+          trans = "respite/rest"
 
   # Section - Visual
   [params.visual]

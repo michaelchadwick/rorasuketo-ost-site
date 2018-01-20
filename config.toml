@@ -98,7 +98,7 @@ googleAnalytics = ""
     [params.visual.video]
       enable = false
       mute = true
-      file = "videos/test.mp4"
+      # file = "videos/test.mp4"
       # youtubeId = "dk9uNWPP7EA"
 
   # Links

@@ -29,6 +29,12 @@
 .fs-split .split-image {
   background-size: cover; }
 
+.fs-split .split-credit a:hover {
+  color: #fff; }
+
+.fs-split .split-credit p {
+  margin-bottom: 10px; }
+
 .fs-split .split-audio {
   object-fit: contain;
   object-position: 50% 50%;

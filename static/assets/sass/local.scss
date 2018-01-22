@@ -42,6 +42,18 @@ $image-background  : url('../../../images/background.png');
   .split-image {
     background-size: cover;
   }
+
+  .split-credit {
+    a {
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 //-------------------------------------------------------------------------------

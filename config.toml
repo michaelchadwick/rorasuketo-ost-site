@@ -17,7 +17,7 @@ googleAnalytics = ""
   twitterHandle = ""
 
   # Favicon
-  favicon = "favicon.ico"
+  favicon = "favicon.png"
 
   # Copyright
   copyright = "&copy;2018 Codana.me"

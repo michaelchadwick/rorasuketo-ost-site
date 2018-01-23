@@ -54,34 +54,38 @@ googleAnalytics = ""
           trans = "main street usa"
 
         [params.content.audio.tracks.track04]
-          name = "lala-tema"
-          trans = "lala-theme"
-
-        [params.content.audio.tracks.track05]
           name = "roradabi1"
           trans = "roller derby 1"
 
+        [params.content.audio.tracks.track05]
+          name = "lala-tema"
+          trans = "lala-theme"
+
         [params.content.audio.tracks.track06]
-          name = "roradabi2"
-          trans = "roller derby 2"
+          name = "shinryosho-sutori"
+          trans = "clinic - story/plot"
 
         [params.content.audio.tracks.track07]
-          name = "roradabi3"
-          trans = "roller derby 3"
+          name = "roradabi2"
+          trans = "roller derby 2"
 
         [params.content.audio.tracks.track08]
           name = "ushinawareta"
           trans = "lost"
 
         [params.content.audio.tracks.track09]
+          name = "suketo-shimai"
+          trans = "roller derby 3"
+
+        [params.content.audio.tracks.track10]
+          name = "roradabi3"
+          trans = "roller derby 3"
+
+        [params.content.audio.tracks.track11]
           name = "shinryosho-shizuka"
           trans = "clinic - quiet"
 
-        [params.content.audio.tracks.track10]
-          name = "shinryosho-sutori"
-          trans = "clinic - story/plot"
-
-        [params.content.audio.tracks.track11]
+        [params.content.audio.tracks.track12]
           name = "yuyo"
           trans = "respite/rest"
 

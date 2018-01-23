@@ -1,3 +1,11 @@
+button.fas {
+  font-size: 1.25em;
+  margin: 0 0 5px;
+  padding: 0;
+  width: 49%; }
+  button.fas:hover {
+    cursor: pointer; }
+
 #fullsingle {
   overflow-x: hidden; }
 

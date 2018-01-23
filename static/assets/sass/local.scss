@@ -1,4 +1,17 @@
-$image-background  : url('../../../images/background.png');
+$image-background: url('../../../images/background.png');
+
+button {
+  &.fas {
+    font-size: 1.25em;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 49%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
 
 #fullsingle {
   overflow-x: hidden;

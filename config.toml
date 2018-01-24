@@ -26,7 +26,7 @@ googleAnalytics = ""
   [params.content]
     name = "Rorasuketo OST"
     tagline = "Chiptune. Derby."
-    bio = "Rorasuketo is a ghost sports adventure created and designed by Candice Norcross. Inspired by and orchestrated with classic SNES sounds, the soundtrack was written by Michael Chadwick."
+    bio = "Rorasuketo is a ghost sports adventure created and designed by Candice Norcross, and co-written by Tiffany VanPeenen. Inspired by and orchestrated with classic SNES sounds, the soundtrack was written by Michael Chadwick."
 
     [params.content.audio]
       enable = true
@@ -154,6 +154,10 @@ googleAnalytics = ""
       [[params.links.list3.link]]
         text = "Michael Chadwick"
         url = "https://www.facebook.com/michael.chadwick"
+
+      [[params.links.list3.link]]
+        text = "Tiffany VanPeenen"
+        url = "https://www.facebook.com/tiffyjustine"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

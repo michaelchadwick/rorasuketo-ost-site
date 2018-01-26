@@ -37,7 +37,12 @@
       {{ range $key, $track := .Site.Params.content.audio.tracks }}
 
       <li {{ if $track.active }}class='active'{{ end }}>
-        <a href="/audio/mp3/{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">{{ $track.name }}</a>
+        <a href="/audio/mp3/{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">
+          <label>{{ $track.tracknum }}</label>
+          <div>{{ $track.name }}</div>
+          <div class='translation'>{{ $track.trans }}</div>
+        </a>
+        
       </li>
 
       {{ end }}

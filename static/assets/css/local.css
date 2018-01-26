@@ -9,63 +9,78 @@ button.fas {
 #fullsingle {
   overflow-x: hidden; }
 
-.fs-split .split-intro {
-  font-size: 64px;
-  font-weight: 600;
-  letter-spacing: -2px;
-  line-height: 80px; }
-  .fs-split .split-intro h1 {
-    color: #47bec7;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.4px;
-    line-height: 16px;
-    margin-bottom: 0;
-    text-transform: uppercase; }
-  .fs-split .split-intro span.tagline {
-    font-size: 60px;
-    line-height: 10px; }
-
-.fs-split .split-content {
-  overflow-x: hidden; }
-
-.fs-split .split-bio {
-  font-family: 'Lora', serif;
-  line-height: 29px;
-  padding: 20px 0; }
-
 .fs-split .split-image {
   background-size: cover; }
 
-.fs-split .split-credit a:hover {
-  color: #fff; }
-
-.fs-split .split-credit p {
-  margin-bottom: 10px; }
-
-.fs-split .split-audio {
-  object-fit: contain;
-  object-position: 50% 50%;
-  padding-bottom: 30px; }
-  .fs-split .split-audio iframe {
-    height: auto;
-    position: relative;
-    width: 100%; }
-  .fs-split .split-audio audio {
-    width: 100%; }
-  .fs-split .split-audio #playlist {
-    background: #666;
-    height: auto;
-    padding: 2px;
-    width: auto; }
-    .fs-split .split-audio #playlist li.active a {
-      background: #153950;
-      color: #5DB0E6;
-      text-decoration: none; }
-    .fs-split .split-audio #playlist li a {
-      background: #333;
-      color: #eeeedd;
-      display: block;
-      padding: 5px 5px 5px 8px; }
-      .fs-split .split-audio #playlist li a:hover {
-        background-color: #555; }
+.fs-split .split-content {
+  overflow-x: hidden; }
+  .fs-split .split-content .split-content-vertically-center {
+    padding: 40px 60px 80px 40px; }
+    .fs-split .split-content .split-content-vertically-center .split-intro {
+      font-size: 64px;
+      font-weight: 600;
+      letter-spacing: -2px;
+      line-height: 60px; }
+      .fs-split .split-content .split-content-vertically-center .split-intro h1 {
+        color: #47bec7;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        line-height: 16px;
+        margin-bottom: 0;
+        text-transform: uppercase; }
+      .fs-split .split-content .split-content-vertically-center .split-intro span.tagline {
+        font-size: 60px;
+        line-height: 10px; }
+    .fs-split .split-content .split-content-vertically-center .split-bio {
+      font-family: 'Lora', serif;
+      line-height: 29px;
+      padding: 20px 0; }
+    .fs-split .split-content .split-content-vertically-center .split-audio {
+      object-fit: contain;
+      object-position: 50% 50%;
+      padding-bottom: 30px; }
+      .fs-split .split-content .split-content-vertically-center .split-audio iframe {
+        height: auto;
+        position: relative;
+        width: 100%; }
+      .fs-split .split-content .split-content-vertically-center .split-audio audio {
+        width: 100%; }
+      .fs-split .split-content .split-content-vertically-center .split-audio #playlist {
+        background: #666;
+        height: auto;
+        padding: 2px;
+        width: auto; }
+        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a {
+          background: #153950;
+          color: #5DB0E6;
+          text-decoration: none; }
+          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a div.translation {
+            color: #85b2d0; }
+        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li label {
+          float: left;
+          font-size: 0.8em;
+          margin-right: 6px;
+          position: relative;
+          top: 2px; }
+        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
+          background: #333;
+          color: #eeeedd;
+          display: block;
+          padding: 0 5px 5px 8px; }
+          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a:hover {
+            background-color: #555; }
+          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.translation {
+            color: #cdcdbd;
+            display: block;
+            font-size: 0.65em;
+            height: 10px;
+            position: relative;
+            top: -15px; }
+    .fs-split .split-content .split-content-vertically-center .split-lists .split-list ul li {
+      font-size: 0.7em;
+      line-height: 12px; }
+    .fs-split .split-content .split-content-vertically-center .split-credit a:hover {
+      color: #fff; }
+    .fs-split .split-content .split-content-vertically-center .split-credit p {
+      margin-bottom: 10px; }

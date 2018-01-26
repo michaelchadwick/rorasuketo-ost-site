@@ -75,7 +75,7 @@ googleAnalytics = ""
 
         [params.content.audio.tracks.track09]
           name = "suketo-shimai"
-          trans = "roller derby 3"
+          trans = "skate sisters"
 
         [params.content.audio.tracks.track10]
           name = "roradabi3"
@@ -119,7 +119,7 @@ googleAnalytics = ""
 
       [[params.links.list1.link]]
         text = "Ghost Sports"
-        url = "#"
+        url = "https://myanimelist.net/manga/29447/Kurogane"
 
       [[params.links.list1.link]]
         text = "Derby"

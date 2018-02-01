@@ -47,59 +47,64 @@ googleAnalytics = ""
           trans = "main theme"
 
         [params.content.audio.tracks.track02]
-          name = "apato"
+          name = "apato-ochitsuita"
           tracknum = 2
-          trans = "apartment"
+          trans = "apartment - calm"
 
         [params.content.audio.tracks.track03]
-          name = "meinsutoritoamerika"
+          name = "apato-isogashi"
           tracknum = 3
-          trans = "main street usa"
+          trans = "apartment - busy"
 
         [params.content.audio.tracks.track04]
-          name = "roradabi1"
+          name = "meinsutoritoamerika"
           tracknum = 4
-          trans = "roller derby 1"
+          trans = "main street usa"
 
         [params.content.audio.tracks.track05]
-          name = "lala-tema"
+          name = "roradabi1"
           tracknum = 5
-          trans = "lala-theme"
+          trans = "roller derby 1"
 
         [params.content.audio.tracks.track06]
-          name = "shinryosho-sutori"
+          name = "lala-tema"
           tracknum = 6
-          trans = "clinic - story/plot"
+          trans = "lala-theme"
 
         [params.content.audio.tracks.track07]
-          name = "roradabi2"
+          name = "shinryosho-sutori"
           tracknum = 7
-          trans = "roller derby 2"
+          trans = "clinic - story/plot"
 
         [params.content.audio.tracks.track08]
-          name = "ushinawareta"
+          name = "roradabi2"
           tracknum = 8
-          trans = "lost"
+          trans = "roller derby 2"
 
         [params.content.audio.tracks.track09]
-          name = "suketo-shimai"
+          name = "ushinawareta"
           tracknum = 9
-          trans = "skate sisters"
+          trans = "lost"
 
         [params.content.audio.tracks.track10]
-          name = "roradabi3"
+          name = "suketo-shimai"
           tracknum = 10
-          trans = "roller derby 3"
+          trans = "skate sisters"
 
         [params.content.audio.tracks.track11]
-          name = "shinryosho-shizuka"
+          name = "roradabi3"
           tracknum = 11
-          trans = "clinic - quiet"
+          trans = "roller derby 3"
 
         [params.content.audio.tracks.track12]
-          name = "yuyo"
+          name = "shinryosho-shizuka"
           tracknum = 12
-          trans = "respite/rest"
+          trans = "clinic - quiet"
+
+        [params.content.audio.tracks.track13]
+          name = "yuyo"
+          tracknum = 13
+          trans = "respite"
 
   # Section - Visual
   [params.visual]

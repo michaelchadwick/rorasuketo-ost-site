@@ -1,6 +1,6 @@
-baseURL = "http://rorasuketo.win/"
+baseURL = "http://rorasuketo.win"
 languageCode = "en-us"
-title = "ro-ra-su-ke-to OST"
+title = "Rorasuketo OST"
 theme = "hugo-split-theme"
 
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
@@ -13,14 +13,27 @@ googleAnalytics = ""
   # Metadata for search engines and social sharing
   name = "rorasuketo ost"
   description = "ghost sports adventure soundtrack"
-  shareImage = "images/social.png"
+  shareImage = "assets/images/social.png"
   twitterHandle = ""
 
   # Favicon
   favicon = "favicon.png"
 
-  # Copyright
-  copyright = "&copy;2018 Codana.me"
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/rorasuketo-screen.png"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      # file = "videos/test.mp4"
+      # youtubeId = "dk9uNWPP7EA"
 
   # Section - Content
   [params.content]
@@ -32,12 +45,12 @@ googleAnalytics = ""
       enable = true
       autoplay = false
       mute = false
-      #file = "/sounds/apato.mp3"
       playlist = true
+      #file = "/sounds/main-tema.mp3"
       #soundcloudId = "258744494"
       #bandcampId = "156001537"
-      #bandcampUrl = "http://nebyoolae.bandcamp.com/album/close-to-the-metal"
-      #bandcampUrlTitle = "Close to the Metal by Nebyoolae"
+      #bandcampUrl = "http://nebyoolae.bandcamp.com/album/rorasuketo-ost"
+      #bandcampUrlTitle = "Rorasuketo OST by Nebyoolae"
 
       [params.content.audio.tracks]
         [params.content.audio.tracks.track01]
@@ -106,22 +119,6 @@ googleAnalytics = ""
           tracknum = 13
           trans = "respite"
 
-  # Section - Visual
-  [params.visual]
-
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "images/rorasuketo-screen.png"
-      position = "center center"
-
-    # Video
-    [params.visual.video]
-      enable = false
-      mute = true
-      # file = "videos/test.mp4"
-      # youtubeId = "dk9uNWPP7EA"
-
   # Links
   #
   # Links List #1
@@ -165,16 +162,19 @@ googleAnalytics = ""
       heading = "Social"
 
       [[params.links.list3.link]]
-        text = "Candice Norcross"
+        text = "Candice"
         url = "https://www.facebook.com/candice.norcross"
 
       [[params.links.list3.link]]
-        text = "Michael Chadwick"
+        text = "Michael"
         url = "https://www.facebook.com/michael.chadwick"
 
       [[params.links.list3.link]]
-        text = "Tiffany VanPeenen"
+        text = "Tiffany"
         url = "https://www.facebook.com/tiffyjustine"
+
+  # Copyright
+  copyright = "&copy;2018 Codana.me"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

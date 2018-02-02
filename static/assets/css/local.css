@@ -77,6 +77,11 @@ button.fas {
             height: 10px;
             position: relative;
             top: -15px; }
+      .fs-split .split-content .split-content-vertically-center .split-audio .downloads {
+        padding-top: 10px; }
+        .fs-split .split-content .split-content-vertically-center .split-audio .downloads a {
+          color: #848d96;
+          font-size: .8em; }
     .fs-split .split-content .split-content-vertically-center .split-lists .split-list ul li {
       font-size: 0.7em;
       line-height: 12px; }

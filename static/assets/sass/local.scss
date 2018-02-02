@@ -1,5 +1,3 @@
-$image-background: url('../../../images/background.png');
-
 button {
   &.fas {
     font-size: 1.25em;
@@ -127,6 +125,15 @@ button {
                 }
               }
             }
+          }
+        }
+
+        .downloads {
+          padding-top: 10px;
+
+          a {
+            color: #848d96;
+            font-size: .8em;
           }
         }
       }

@@ -85,38 +85,53 @@ googleAnalytics = ""
           trans = "lala-theme"
 
         [params.content.audio.tracks.track07]
-          name = "shinryosho-sutori"
+          name = "inbo"
           tracknum = 7
-          trans = "clinic - story/plot"
+          trans = "intrigue"
 
         [params.content.audio.tracks.track08]
-          name = "roradabi2"
+          name = "shinryosho-sutori"
           tracknum = 8
-          trans = "roller derby 2"
+          trans = "clinic - story/plot"
 
         [params.content.audio.tracks.track09]
-          name = "ushinawareta"
+          name = "roradabi2"
           tracknum = 9
-          trans = "lost"
+          trans = "roller derby 2"
 
         [params.content.audio.tracks.track10]
-          name = "suketo-shimai"
+          name = "ushinawareta"
           tracknum = 10
-          trans = "skate sisters"
+          trans = "lost"
 
         [params.content.audio.tracks.track11]
-          name = "roradabi3"
+          name = "jukuko"
           tracknum = 11
-          trans = "roller derby 3"
+          trans = "ponder"
 
         [params.content.audio.tracks.track12]
-          name = "shinryosho-shizuka"
+          name = "suketo-shimai"
           tracknum = 12
-          trans = "clinic - quiet"
+          trans = "skate sisters"
 
         [params.content.audio.tracks.track13]
-          name = "yuyo"
+          name = "roradabi3"
           tracknum = 13
+          trans = "roller derby 3"
+
+        [params.content.audio.tracks.track14]
+          name = "shinryosho-shizuka"
+          tracknum = 14
+          trans = "clinic - quiet"
+
+        [params.content.audio.tracks.track15]
+          name = "roradabi4"
+          tracknum = 15
+          trans = "roller derby 4"
+
+        [params.content.audio.tracks.track16]
+          name = "yuyo"
+          tracknum = 16
           trans = "respite"
 
   # Links

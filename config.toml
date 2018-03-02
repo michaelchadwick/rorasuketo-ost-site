@@ -62,7 +62,7 @@ googleAnalytics = ""
 
         [params.content.audio.tracks.track02]
           tracknum = 2
-          name = "apato-shizuka"
+          name = "apato-ochitsuita"
           trans = "apartment - calm"
           chars = "アパート - 落ち着いた"
 

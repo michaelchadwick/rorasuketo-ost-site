@@ -20,7 +20,17 @@ button.fas {
       font-size: 64px;
       font-weight: 600;
       letter-spacing: -2px;
-      line-height: 60px; }
+      line-height: 60px;
+      position: relative;
+      z-index: 1; }
+      .fs-split .split-content .split-content-vertically-center .split-intro div.tagchars {
+        font-size: 44px;
+        left: 0;
+        letter-spacing: -2px;
+        opacity: .2;
+        position: absolute;
+        top: 22px;
+        z-index: 0; }
       .fs-split .split-content .split-content-vertically-center .split-intro h1 {
         color: #47bec7;
         font-size: 16px;
@@ -63,7 +73,9 @@ button.fas {
             background: #333;
             color: #eeeedd;
             display: block;
-            padding: 0 5px 5px 8px; }
+            padding: 0 5px 5px 8px;
+            position: relative;
+            z-index: 2; }
             .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a:hover {
               background-color: #555; }
             .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a label {
@@ -74,7 +86,8 @@ button.fas {
               position: relative;
               top: 2px; }
             .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.titles {
-              float: left; }
+              float: left;
+              z-index: 1; }
               .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.titles div.translation {
                 color: #cdcdbd;
                 display: block;
@@ -82,9 +95,25 @@ button.fas {
                 height: 10px;
                 position: relative;
                 top: -15px; }
+            .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.chars-bg {
+              color: #999;
+              float: left;
+              font-family: 'Noto Sans Japanese', serif;
+              font-size: 1.3em;
+              font-weight: 600;
+              opacity: .2;
+              position: absolute;
+              left: 10px;
+              top: 5px;
+              z-index: 0; }
             .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.characters {
+              font-family: 'Noto Sans Japanese', serif;
+              font-weight: 400;
               font-size: .8em;
-              float: right; }
+              float: right;
+              position: relative;
+              right: 5px;
+              top: 5px; }
       .fs-split .split-content .split-content-vertically-center .split-audio .downloads {
         padding-top: 10px; }
         .fs-split .split-content .split-content-vertically-center .split-audio .downloads a {

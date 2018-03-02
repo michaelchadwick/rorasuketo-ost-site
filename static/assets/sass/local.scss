@@ -31,6 +31,20 @@ button {
         font-weight: 600;
         letter-spacing: -2px;
         line-height: 60px;
+        position: relative;
+        z-index: 1;
+
+        div {
+          &.tagchars {
+            font-size: 44px;
+            left: 0;
+            letter-spacing: -2px;
+            opacity: .2;
+            position: absolute;
+            top: 22px;
+            z-index: 0;
+          }
+        }
 
         h1 {
           color: #47bec7;
@@ -103,6 +117,8 @@ button {
               color: #eeeedd;
               display: block;
               padding: 0 5px 5px 8px;
+              position: relative;
+              z-index: 2;
 
               &:hover {
                 background-color: #555;
@@ -120,10 +136,11 @@ button {
               div {
                 &.titles {
                   float: left;
+                  z-index: 1;
 
                   div {
                     &.name {
-                    
+
                     }
 
                     &.translation {
@@ -137,9 +154,27 @@ button {
                   }
                 }
 
+                &.chars-bg {
+                  color: #999;
+                  float: left;
+                  font-family: 'Noto Sans Japanese', serif;
+                  font-size: 1.3em;
+                  font-weight: 600;
+                  opacity: .2;
+                  position: absolute;
+                  left: 10px;
+                  top: 5px;
+                  z-index: 0;
+                }
+
                 &.characters {
+                  font-family: 'Noto Sans Japanese', serif;
+                  font-weight: 400;
                   font-size: .8em;
                   float: right;
+                  position: relative;
+                  right: 5px;
+                  top: 5px;
                 }
               }
             }

@@ -42,6 +42,7 @@
 
       <li {{ if $track.active }}class='active'{{ end }}>
         <a href="/audio/mp3/{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">
+          <div class='chars-bg'>{{ $track.chars }}</div>
           <label>{{ $track.tracknum }}</label>
           <div class='titles'>
             <div class='name'>{{ $track.name }}</div>

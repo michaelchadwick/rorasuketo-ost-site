@@ -51,32 +51,40 @@ button.fas {
         height: auto;
         padding: 2px;
         width: auto; }
-        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a {
-          background: #153950;
-          color: #5DB0E6;
-          text-decoration: none; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a div.translation {
-            color: #85b2d0; }
-        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li label {
-          float: left;
-          font-size: 0.8em;
-          margin-right: 6px;
-          position: relative;
-          top: 2px; }
-        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
-          background: #333;
-          color: #eeeedd;
-          display: block;
-          padding: 0 5px 5px 8px; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a:hover {
-            background-color: #555; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.translation {
-            color: #cdcdbd;
+        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li {
+          display: grid; }
+          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a {
+            background: #153950;
+            color: #5DB0E6;
+            text-decoration: none; }
+            .fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a div.translation {
+              color: #85b2d0; }
+          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
+            background: #333;
+            color: #eeeedd;
             display: block;
-            font-size: 0.65em;
-            height: 10px;
-            position: relative;
-            top: -15px; }
+            padding: 0 5px 5px 8px; }
+            .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a:hover {
+              background-color: #555; }
+            .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a label {
+              clear: left;
+              float: left;
+              font-size: 0.8em;
+              margin-right: 6px;
+              position: relative;
+              top: 2px; }
+            .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.titles {
+              float: left; }
+              .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.titles div.translation {
+                color: #cdcdbd;
+                display: block;
+                font-size: 0.65em;
+                height: 10px;
+                position: relative;
+                top: -15px; }
+            .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.characters {
+              font-size: .8em;
+              float: right; }
       .fs-split .split-content .split-content-vertically-center .split-audio .downloads {
         padding-top: 10px; }
         .fs-split .split-content .split-content-vertically-center .split-audio .downloads a {

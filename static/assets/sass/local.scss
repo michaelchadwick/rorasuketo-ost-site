@@ -82,6 +82,8 @@ button {
           width: auto;
 
           li {
+            display: grid;
+
             &.active {
               a {
                 background: #153950;
@@ -96,14 +98,6 @@ button {
               }
             }
 
-            label {
-              float: left;
-              font-size: 0.8em;
-              margin-right: 6px;
-              position: relative;
-              top: 2px;
-            }
-
             a {
               background: #333;
               color: #eeeedd;
@@ -114,14 +108,38 @@ button {
                 background-color: #555;
               }
 
+              label {
+                clear: left;
+                float: left;
+                font-size: 0.8em;
+                margin-right: 6px;
+                position: relative;
+                top: 2px;
+              }
+
               div {
-                &.translation {
-                  color: #cdcdbd;
-                  display: block;
-                  font-size: 0.65em;
-                  height: 10px;
-                  position: relative;
-                  top: -15px;
+                &.titles {
+                  float: left;
+
+                  div {
+                    &.name {
+                    
+                    }
+
+                    &.translation {
+                    color: #cdcdbd;
+                    display: block;
+                    font-size: 0.65em;
+                    height: 10px;
+                    position: relative;
+                    top: -15px;
+                  }
+                  }
+                }
+
+                &.characters {
+                  font-size: .8em;
+                  float: right;
                 }
               }
             }

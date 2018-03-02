@@ -54,85 +54,113 @@ googleAnalytics = ""
 
       [params.content.audio.tracks]
         [params.content.audio.tracks.track01]
-          active = true
           tracknum = 1
           name = "mein-tema"
           trans = "main theme"
+          chars = "メインテ ー マ"
+          active = true
 
         [params.content.audio.tracks.track02]
-          name = "apato-ochitsuita"
           tracknum = 2
+          name = "apato-shizuka"
           trans = "apartment - calm"
+          chars = "アパート - 落ち着いた"
 
         [params.content.audio.tracks.track03]
           name = "apato-isogashi"
           tracknum = 3
           trans = "apartment - busy"
+          chars = "アパート - 忙しい"
 
         [params.content.audio.tracks.track04]
           name = "meinsutoritoamerika"
           tracknum = 4
           trans = "main street usa"
+          chars = "メインストリートアメリカ"
 
         [params.content.audio.tracks.track05]
           name = "roradabi1"
           tracknum = 5
           trans = "roller derby 1"
+          chars = "ローラーダービー 1"
 
         [params.content.audio.tracks.track06]
           name = "lala-tema"
           tracknum = 6
-          trans = "lala-theme"
+          trans = "lala - theme"
+          chars = "ララテ ー マ"
 
         [params.content.audio.tracks.track07]
           name = "inbo"
           tracknum = 7
           trans = "intrigue"
+          chars = "陰謀"
 
         [params.content.audio.tracks.track08]
-          name = "shinryosho-sutori"
+          name = "ranburubatoru"
           tracknum = 8
-          trans = "clinic - story/plot"
+          trans = "rumble battle"
+          chars = "ランブルバトル"
 
         [params.content.audio.tracks.track09]
-          name = "roradabi2"
+          name = "shinryosho-sutori"
           tracknum = 9
-          trans = "roller derby 2"
+          trans = "clinic - story/plot"
+          chars = "診療所 - ストーリー"
 
         [params.content.audio.tracks.track10]
-          name = "ushinawareta"
+          name = "roradabi2"
           tracknum = 10
-          trans = "lost"
+          trans = "roller derby 2"
+          chars = "ローラーダービー 2"
 
         [params.content.audio.tracks.track11]
-          name = "jukuko"
+          name = "ushinawareta"
           tracknum = 11
-          trans = "ponder"
+          trans = "lost"
+          chars = "失われた"
 
         [params.content.audio.tracks.track12]
-          name = "suketo-shimai"
+          name = "jukuko"
           tracknum = 12
-          trans = "skate sisters"
+          trans = "ponder"
+          chars = "熟考"
 
         [params.content.audio.tracks.track13]
-          name = "roradabi3"
+          name = "utagai"
           tracknum = 13
-          trans = "roller derby 3"
+          trans = "suspicion"
+          chars = "疑い"
 
         [params.content.audio.tracks.track14]
-          name = "shinryosho-shizuka"
+          name = "suketo-shimai"
           tracknum = 14
-          trans = "clinic - quiet"
+          trans = "skate sisters"
+          chars = "スケート姉妹"
 
         [params.content.audio.tracks.track15]
-          name = "roradabi4"
+          name = "roradabi3"
           tracknum = 15
-          trans = "roller derby 4"
+          trans = "roller derby 3"
+          chars = "ローラーダービー 3"
 
         [params.content.audio.tracks.track16]
-          name = "yuyo"
+          name = "shinryosho-shizuka"
           tracknum = 16
+          trans = "clinic - quiet"
+          chars = "診療所 - 静か"
+
+        [params.content.audio.tracks.track17]
+          name = "roradabi4"
+          tracknum = 17
+          trans = "roller derby 4"
+          chars = "ローラーダービー 4"
+
+        [params.content.audio.tracks.track18]
+          name = "yuyo"
+          tracknum = 18
           trans = "respite"
+          chars = "猶予"
 
   # Links
   #

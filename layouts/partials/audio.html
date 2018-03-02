@@ -23,8 +23,12 @@
   {{ else if .Site.Params.content.audio.playlist }}
 
     <audio class="audio" controls>
-      <source src="/audio/mp3/{{ .Site.Params.content.audio.tracks.track01.name }}.mp3">
-      <source src="/audio/ogg/{{ .Site.Params.content.audio.tracks.track01.name }}.ogg">
+      {{ range $key, $track := .Site.Params.content.audio.tracks }}
+        {{ if eq $track.tracknum 1 }}
+          <source src="/audio/mp3/{{ $track.name }}.mp3">
+          <source src="/audio/ogg/{{ $track.name }}.ogg">
+        {{ end }}
+      {{ end }}
       Your browser doesn't support HTML5 :'(
     </audio>
 
@@ -39,8 +43,11 @@
       <li {{ if $track.active }}class='active'{{ end }}>
         <a href="/audio/mp3/{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">
           <label>{{ $track.tracknum }}</label>
-          <div>{{ $track.name }}</div>
-          <div class='translation'>{{ $track.trans }}</div>
+          <div class='titles'>
+            <div class='name'>{{ $track.name }}</div>
+            <div class='translation'>{{ $track.trans }}</div>
+          </div>
+          <div class='characters'>{{ $track.chars }}</div>
         </a>
       </li>
 

@@ -1,7 +1,7 @@
 button {
   &.fas {
     font-size: 1.25em;
-    margin: 0 0 5px;
+    margin: 0 auto;
     padding: 0;
     width: 49%;
 
@@ -15,6 +15,112 @@ button {
   overflow-x: hidden;
 }
 
+@media (max-width: 800px) {
+  .fs-split {
+    .split-content {
+      .split-content-vertically-center {
+        padding: 20px 0;
+
+        .split-intro {
+          padding-left: 25px;
+          padding-right: 25px;
+
+          div {
+            &.tagchars {
+              left: 20px;
+            }
+          }
+        }
+
+        .split-bio {
+          padding-left: 25px;
+          padding-right: 25px;
+        }
+
+        .split-audio {
+          padding-left: 0;
+          padding-right: 0;
+
+          #playlist {
+            padding: 0;
+
+            li {
+              a {
+                padding: 0 15px 5px;
+              }
+            }
+          }
+
+          .downloads {
+            padding-left: 25px;
+            padding-right: 25px;
+          }
+        }
+
+        .split-lists {
+          padding-left: 25px;
+          padding-right: 25px;
+
+          .split-list {
+            margin-bottom: 20px;
+
+            h3 {
+              margin-bottom: 15px;
+            }
+          }
+        }
+
+        .split-credit {
+          padding-left: 25px;
+          padding-right: 25px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 801px) {
+  .fs-split {
+    .split-content {
+      .split-content-vertically-center {
+        padding: 40px 40px 80px 40px;
+
+        .split-intro {
+          div {
+            &.tagchars {
+              left: 0;
+            }
+          }
+        }
+
+        .split-bio {
+          padding: 20px 0;
+        }
+
+        .split-audio {
+          #playlist {
+            padding: 2px;
+
+            li {
+              a {
+                padding: 0 5px 5px 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1201px) {
+  .fs-split {
+    .split-content {
+      .split-content-vertically-center {
+        padding: 60px 60px 80px 60px;
+      }
+    }
+  }
+}
+
 .fs-split {
   .split-image {
     background-size: cover;
@@ -24,7 +130,6 @@ button {
     overflow-x: hidden;
 
     .split-content-vertically-center {
-      padding: 40px 60px 80px 40px;
 
       .split-intro {
         font-size: 64px;
@@ -37,7 +142,6 @@ button {
         div {
           &.tagchars {
             font-size: 44px;
-            left: 0;
             letter-spacing: -2px;
             opacity: .2;
             position: absolute;
@@ -67,7 +171,6 @@ button {
       .split-bio {
         font-family: 'Lora', serif;
         line-height: 29px;
-        padding: 20px 0;
       }
 
       .split-audio {
@@ -89,10 +192,13 @@ button {
           width: 100%;
         }
 
+        #audio-controls {
+          padding: 0;
+        }
+
         #playlist {
           background: #666;
           height: auto;
-          padding: 2px;
           width: auto;
 
           li {
@@ -116,7 +222,6 @@ button {
               background: #333;
               color: #eeeedd;
               display: block;
-              padding: 0 5px 5px 8px;
               position: relative;
               z-index: 2;
 
@@ -187,6 +292,10 @@ button {
           a {
             color: #848d96;
             font-size: .8em;
+
+            &:hover {
+              color: #fff;
+            }
           }
         }
       }

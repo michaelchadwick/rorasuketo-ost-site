@@ -163,6 +163,19 @@ googleAnalytics = ""
           trans = "respite"
           chars = "猶予"
 
+        [params.content.audio.tracks.track19]
+         name = "kosuto-suramingu"
+         tracknum = 19
+         trans = "coast slumming"
+         chars = "コースト・スラミング"
+
+        [params.content.audio.tracks.track20]
+          name = "hoshi"
+          tracknum = 19
+          trans = "the stars"
+          chars = "星"
+          disabled = true
+
   # Links
   #
   # Links List #1

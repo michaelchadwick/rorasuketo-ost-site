@@ -19,7 +19,12 @@
 {{ with .Site.Params.twitterHandle }}<meta name="twitter:site" content="@{{ . }}" />{{ end }}
 
 <!-- Favicon -->
-{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}" />{{ end }}
+{{ with .Site.Params.favicon }}
+<link rel="favicon" href="{{ . }}">
+<link rel="icon" type="image/x-icon" href="{{ . }}">
+<link rel="apple-touch-icon" href="{{ . }}">
+<link rel="apple-touch-startup-image" href="{{ . }}">
+{{ end }}
 
 <!-- Styles -->
 <link rel="stylesheet" href="assets/css/split.css" type="text/css" media="screen" />

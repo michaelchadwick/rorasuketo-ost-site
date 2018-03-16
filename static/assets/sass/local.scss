@@ -17,9 +17,13 @@ button {
 
 @media (max-width: 800px) {
   .fs-split {
+    .split-image {
+      height: 60vw;
+    }
+
     .split-content {
       .split-content-vertically-center {
-        padding: 20px 0;
+        padding: 30px 0;
 
         .split-intro {
           padding-left: 25px;
@@ -78,6 +82,7 @@ button {
     }
   }
 }
+
 @media (min-width: 801px) {
   .fs-split {
     .split-content {
@@ -111,6 +116,7 @@ button {
     }
   }
 }
+
 @media (min-width: 1201px) {
   .fs-split {
     .split-content {
@@ -126,11 +132,15 @@ button {
     background-size: cover;
   }
 
+  .split-video {
+    width: 50%;
+    height: 100vh;
+  }
+
   .split-content {
     overflow-x: hidden;
 
     .split-content-vertically-center {
-
       .split-intro {
         font-size: 64px;
         font-weight: 600;
@@ -143,7 +153,7 @@ button {
           &.tagchars {
             font-size: 44px;
             letter-spacing: -2px;
-            opacity: .2;
+            opacity: 0.2;
             position: absolute;
             top: 22px;
             z-index: 0;
@@ -207,7 +217,7 @@ button {
             &.active {
               a {
                 background: #153950;
-                color: #5DB0E6;
+                color: #5db0e6;
                 text-decoration: none;
 
                 div {
@@ -244,18 +254,14 @@ button {
                   z-index: 1;
 
                   div {
-                    &.name {
-
-                    }
-
                     &.translation {
-                    color: #cdcdbd;
-                    display: block;
-                    font-size: 0.65em;
-                    height: 10px;
-                    position: relative;
-                    top: -15px;
-                  }
+                      color: #cdcdbd;
+                      display: block;
+                      font-size: 0.65em;
+                      height: 10px;
+                      position: relative;
+                      top: -15px;
+                    }
                   }
                 }
 
@@ -265,7 +271,7 @@ button {
                   font-family: 'Noto Sans Japanese', serif;
                   font-size: 1.3em;
                   font-weight: 600;
-                  opacity: .2;
+                  opacity: 0.2;
                   position: absolute;
                   left: 10px;
                   top: 5px;
@@ -275,7 +281,7 @@ button {
                 &.characters {
                   font-family: 'Noto Sans Japanese', serif;
                   font-weight: 400;
-                  font-size: .8em;
+                  font-size: 0.8em;
                   float: right;
                   position: relative;
                   right: 5px;
@@ -291,7 +297,7 @@ button {
 
           a {
             color: #848d96;
-            font-size: .8em;
+            font-size: 0.8em;
 
             &:hover {
               color: #fff;

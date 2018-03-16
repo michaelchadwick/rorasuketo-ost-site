@@ -9,17 +9,19 @@
 
   <div class="fs-split">
 
+    <!-- Video -->
+    {{ if .Site.Params.visual.video.enable }}
+
+      {{ partial "video" . }}
+
+    {{ end }}
+
     <!-- Image -->
     {{ if .Site.Params.visual.image.enable }}
 
       <div class="split-image">
 
       </div>
-
-    <!-- Video -->
-    {{ else if .Site.Params.visual.video.enable }}
-
-      {{ partial "video" . }}
 
     {{ end }}
 

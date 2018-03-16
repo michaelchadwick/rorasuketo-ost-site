@@ -22,18 +22,18 @@ googleAnalytics = ""
   # Section - Visual
   [params.visual]
 
+    # Video
+    [params.visual.video]
+      enable = true
+      mute = true
+      file = "videos/rora-540p-low.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
     # Image
     [params.visual.image]
       enable = true
       file = "images/rorasuketo-screen.png"
       position = "center center"
-
-    # Video
-    [params.visual.video]
-      enable = false
-      mute = true
-      # file = "videos/test.mp4"
-      # youtubeId = "dk9uNWPP7EA"
 
   # Section - Content
   [params.content]
@@ -176,7 +176,7 @@ googleAnalytics = ""
           chars = "星"
           disabled = true
 
-  # Links
+  # Section - Links
   #
   # Links List #1
 

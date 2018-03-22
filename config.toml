@@ -171,10 +171,15 @@ googleAnalytics = ""
 
         [params.content.audio.tracks.track20]
           name = "hoshi"
-          tracknum = 19
-          trans = "the stars"
+          tracknum = 20
+          trans = "the stars / las estrellas"
           chars = "星"
-          disabled = true
+
+        [params.content.audio.tracks.track21]
+          name = "suketorinku"
+          tracknum = 21
+          trans = "skating rink"
+          chars = "スケートリンク"
 
   # Section - Links
   #

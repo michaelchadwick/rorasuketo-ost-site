@@ -15,9 +15,7 @@ function getWidth () {
 if (window.isMobile.any) {
   var video = document.querySelector('.split-video')
   video.parentNode.removeChild(video)
-  console.log('mobile!')
 } else {
   window.onload = getWidth
   window.onresize = getWidth
-  console.log('desktop!')
 }

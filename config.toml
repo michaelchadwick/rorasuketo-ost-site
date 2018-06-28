@@ -68,116 +68,122 @@ googleAnalytics = ""
           chars = "アパート - 落ち着いた"
 
         [params.content.audio.tracks.track03]
-          name = "apato-isogashi"
           tracknum = 3
+          name = "apato-isogashi"
           trans = "apartment - busy"
           chars = "アパート - 忙しい"
 
         [params.content.audio.tracks.track04]
-          name = "meinsutoritoamerika"
           tracknum = 4
+          name = "nokori"
+          trans = "rest"
+          chars = "残り"
+
+        [params.content.audio.tracks.track05]
+          tracknum = 5
+          name = "meinsutoritoamerika"
           trans = "main street usa"
           chars = "メインストリートアメリカ"
 
-        [params.content.audio.tracks.track05]
+        [params.content.audio.tracks.track06]
+          tracknum = 6
           name = "roradabi1"
-          tracknum = 5
           trans = "roller derby 1"
           chars = "ローラーダービー 1"
 
-        [params.content.audio.tracks.track06]
+        [params.content.audio.tracks.track07]
+          tracknum = 7
           name = "lala-tema"
-          tracknum = 6
           trans = "lala - theme"
           chars = "ララテ ー マ"
 
-        [params.content.audio.tracks.track07]
+        [params.content.audio.tracks.track08]
+          tracknum = 8
           name = "inbo"
-          tracknum = 7
           trans = "intrigue"
           chars = "陰謀"
 
-        [params.content.audio.tracks.track08]
+        [params.content.audio.tracks.track09]
+          tracknum = 9
           name = "ranburubatoru"
-          tracknum = 8
           trans = "rumble battle"
           chars = "ランブルバトル"
 
-        [params.content.audio.tracks.track09]
+        [params.content.audio.tracks.track10]
+          tracknum = 10
           name = "shinryosho-sutori"
-          tracknum = 9
           trans = "clinic - story/plot"
           chars = "診療所 - ストーリー"
 
-        [params.content.audio.tracks.track10]
+        [params.content.audio.tracks.track11]
+          tracknum = 11
           name = "roradabi2"
-          tracknum = 10
           trans = "roller derby 2"
           chars = "ローラーダービー 2"
 
-        [params.content.audio.tracks.track11]
+        [params.content.audio.tracks.track12]
+          tracknum = 12
           name = "ushinawareta"
-          tracknum = 11
           trans = "lost"
           chars = "失われた"
 
-        [params.content.audio.tracks.track12]
+        [params.content.audio.tracks.track13]
+          tracknum = 13
           name = "jukuko"
-          tracknum = 12
           trans = "ponder"
           chars = "熟考"
 
-        [params.content.audio.tracks.track13]
+        [params.content.audio.tracks.track14]
+          tracknum = 14
           name = "utagai"
-          tracknum = 13
           trans = "suspicion"
           chars = "疑い"
 
-        [params.content.audio.tracks.track14]
+        [params.content.audio.tracks.track15]
+          tracknum = 15
           name = "suketo-shimai"
-          tracknum = 14
           trans = "skate sisters"
           chars = "スケート姉妹"
 
-        [params.content.audio.tracks.track15]
+        [params.content.audio.tracks.track16]
+          tracknum = 16
           name = "roradabi3"
-          tracknum = 15
           trans = "roller derby 3"
           chars = "ローラーダービー 3"
 
-        [params.content.audio.tracks.track16]
+        [params.content.audio.tracks.track17]
+          tracknum = 17
           name = "shinryosho-shizuka"
-          tracknum = 16
           trans = "clinic - quiet"
           chars = "診療所 - 静か"
 
-        [params.content.audio.tracks.track17]
+        [params.content.audio.tracks.track18]
+          tracknum = 18
           name = "roradabi4"
-          tracknum = 17
           trans = "roller derby 4"
           chars = "ローラーダービー 4"
 
-        [params.content.audio.tracks.track18]
+        [params.content.audio.tracks.track19]
+          tracknum = 19
           name = "yuyo"
-          tracknum = 18
           trans = "respite"
           chars = "猶予"
 
-        [params.content.audio.tracks.track19]
-         name = "kosuto-suramingu"
-         tracknum = 19
-         trans = "coast slumming"
-         chars = "コースト・スラミング"
-
         [params.content.audio.tracks.track20]
-          name = "hoshi"
           tracknum = 20
+          name = "kosuto-suramingu"
+          trans = "coast slumming"
+          chars = "コースト・スラミング"
+
+        [params.content.audio.tracks.track21]
+          tracknum = 21
+          name = "hoshi"
           trans = "the stars / las estrellas"
           chars = "星"
 
-        [params.content.audio.tracks.track21]
+        [params.content.audio.tracks.track22]
+          tracknum = 22
           name = "suketorinku"
-          tracknum = 21
           trans = "skating rink"
           chars = "スケートリンク"
 

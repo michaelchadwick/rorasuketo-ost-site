@@ -1,5 +1,5 @@
 # Hugo default output directory
-/public
+public
 
 # mp3/ogg files
-/content/sounds
+content/sounds

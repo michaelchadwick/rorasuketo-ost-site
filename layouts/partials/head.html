@@ -27,8 +27,8 @@
 {{ end }}
 
 <!-- Styles -->
-<link rel="stylesheet" href="assets/css/split.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="assets/css/local.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/assets/css/split.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/assets/css/local.css" type="text/css" media="screen" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
 <!-- Font Awesome -->
@@ -38,15 +38,24 @@
 <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script type="text/javascript" src="assets/js/vendor/isMobile.min.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/isMobile.min.js"></script>
 
 <!-- Image Styles -->
 {{ if .Site.Params.visual.image.enable }}
-  <style type="text/css">
   {{ if .Site.Params.visual.image.file }}
-    .fs-split .split-image { background-image: url("{{ .Site.Params.visual.image.file }}"); background-position: {{ if .Site.Params.visual.image.position }}{{ .Site.Params.visual.image.position }}{{ else }}center center{{ end }}; }
-  {{ end }}
+  <style type="text/css">
+    .fs-split .split-image {
+      background-image: url("{{ .Site.Params.visual.image.file }}");
+      background-position:
+      {{ if .Site.Params.visual.image.position }}
+        {{ .Site.Params.visual.image.position }}
+      {{ else }}
+        center center
+      {{ end }}
+      ;
+    }
   </style>
+  {{ end }}
 {{ end }}
 
 <!-- Google Analytics -->

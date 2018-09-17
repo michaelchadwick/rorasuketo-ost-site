@@ -187,6 +187,18 @@ googleAnalytics = ""
           trans = "skating rink"
           chars = "スケートリンク"
 
+        [params.content.audio.tracks.track23]
+          tracknum = 23
+          name = "meinsutoritonyuyoku"
+          trans = "main street new york"
+          chars = "メインストリートニューヨーク"
+
+        [params.content.audio.tracks.track24]
+          tracknum = 24
+          name = "meinsutoritotekisasu"
+          trans = "main street texas"
+          chars = "メインストリートテキサス"
+
   # Section - Links
   #
   # Links List #1

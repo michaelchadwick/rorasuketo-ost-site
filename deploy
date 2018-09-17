@@ -1,4 +1,5 @@
 #!/bin/sh
+# creates /public && rsync it to server
 
 USER=mike
 HOST=neb.host

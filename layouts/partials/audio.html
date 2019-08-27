@@ -38,7 +38,7 @@
     </div>
 
     <ul id="playlist">
-      {{ range $key, $track := .Site.Params.content.audio.tracks }}
+    {{ range $key, $track := .Site.Params.content.audio.tracks }}
       {{ if ne $track.disabled true }}
       <li {{ if $track.active }}class='active'{{ end }}>
         <a href="/audio/mp3/{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">
@@ -53,12 +53,8 @@
       </li>
       {{ end }}
 
-      {{ end }}
+    {{ end }}
     </ul>
-
-    <div class='downloads'>
-      <a href='/audio/zip/rorasuketo-mp3s.zip'>mp3 soundtrack</a> | <a href='/audio/zip/rorasuketo-oggs.zip'>ogg soundtrack</a>
-    </div>
 
   {{ end }}
 

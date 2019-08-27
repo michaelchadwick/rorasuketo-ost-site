@@ -1,3 +1,6 @@
+# deploy scripts
+.deploy.sh
+
 # Hugo default output directory
 public
 

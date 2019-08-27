@@ -208,8 +208,8 @@ googleAnalytics = ""
       heading = "Game"
 
       [[params.links.list1.link]]
-        text = "Game Home"
-        url = "#"
+        text = "Game OST @ Bandcamp"
+        url = "https://nebyoolae.bandcamp.com/album/rorasuketo-ost"
 
       [[params.links.list1.link]]
         text = "Ghost Sports"

@@ -1,9 +1,8 @@
-task :repo do
-  sh "git push origin master"
-end
+task :deploy
 
 task :deploy do |t|
-  sh "./deploy"
+  sh "git push"
+  sh "dandelion deploy"
 end
 
-task :default => [:repo, :deploy]
+task :default => [:deploy]

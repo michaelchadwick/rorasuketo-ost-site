@@ -1,7 +1,7 @@
-# rorasuketo.win
+# rorasuketo.nebyoolae.com
 
-Hugo source code for [https://rorasuketo.win](https://rorasuketo.win) one-page web site.
+Hugo source code for [https://rorasuketo.nebyoolae.com](https://rorasuketo.nebyoolae.com) one-page web site.
 
 ## build
 
-`$ cd /path/to/rorasuketo.win; hugo`
+`$ cd /path/to/rorasuketo; hugo`

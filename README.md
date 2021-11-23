@@ -1,6 +1,6 @@
 # rorasuketo.nebyoolae.com
 
-Hugo source code for [https://rorasuketo.nebyoolae.com](https://rorasuketo.nebyoolae.com) one-page web site.
+Hugo source code for [Rorasuketo OST](https://nebyoolae.com/rora) one-page web site.
 
 ## build
 

@@ -25,8 +25,8 @@
     <audio class="audio" controls>
       {{ range $key, $track := .Site.Params.content.audio.tracks }}
         {{ if eq $track.tracknum 1 }}
-          <source src="/audio/mp3/{{ $track.name }}.mp3">
-          <source src="/audio/ogg/{{ $track.name }}.ogg">
+          <source src="audio/mp3/{{ $track.name }}.mp3">
+          <source src="audio/ogg/{{ $track.name }}.ogg">
         {{ end }}
       {{ end }}
       Your browser doesn't support HTML5 :'(
@@ -41,7 +41,7 @@
     {{ range $key, $track := .Site.Params.content.audio.tracks }}
       {{ if ne $track.disabled true }}
       <li {{ if $track.active }}class='active'{{ end }}>
-        <a href="/audio/mp3/{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">
+        <a href="audio/mp3/{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">
           <div class='chars-bg'>{{ $track.chars }}</div>
           <label>{{ $track.tracknum }}</label>
           <div class='titles'>

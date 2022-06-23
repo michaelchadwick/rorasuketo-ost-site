@@ -15,6 +15,20 @@ button {
   overflow-x: hidden;
 }
 
+// @media (max-width: 530px) {
+//   .fs-split {
+//     .split-content {
+//       .split-content-vertically-center {
+//         #playlist {
+//           li {
+//             min-height: 81px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
 @media (max-width: 800px) {
   .fs-split {
     .split-image {
@@ -128,6 +142,8 @@ button {
 }
 
 .fs-split {
+  margin-bottom: 20px;
+
   .split-image {
     background-size: cover;
   }

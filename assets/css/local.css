@@ -59,6 +59,9 @@ button.fas {
   .fs-split .split-content .split-content-vertically-center {
     padding: 60px 60px 80px 60px; } }
 
+.fs-split {
+  margin-bottom: 20px; }
+
 .fs-split .split-image {
   background-size: cover; }
 

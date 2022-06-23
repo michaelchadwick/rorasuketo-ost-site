@@ -1,4 +1,4 @@
-baseURL = "http://rorasuketo.win"
+baseURL = "https://nebyoolae.com/rora"
 languageCode = "en-us"
 title = "Rorasuketo OST"
 theme = "hugo-split-theme"
@@ -11,13 +11,13 @@ googleAnalytics = ""
 [params]
 
   # Metadata for search engines and social sharing
-  name = "rorasuketo ost"
+  name = "Rorasuketo OST"
   description = "ghost sports adventure soundtrack"
-  shareImage = "assets/images/social.png"
+  shareImage = "images/social.png"
   twitterHandle = ""
 
   # Favicon
-  favicon = "favicon.png"
+  # favicon = "favicon.png"
 
   # Section - Visual
   [params.visual]

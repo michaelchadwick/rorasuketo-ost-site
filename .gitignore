@@ -4,5 +4,7 @@
 # Hugo default output directory
 public
 
-# mp3/ogg files
-content/sounds
+# Hugo caching
+resources/_gen
+
+!static/icons

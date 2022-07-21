@@ -1,5 +1,10 @@
 .DS_Store
+.eslintignore
+.eslintrc*
+.gitignore
 assets/sass
 images/background.jpg
 images/social.jpg
 videos
+Rakefile
+TODO.md

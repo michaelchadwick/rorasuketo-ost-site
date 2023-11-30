@@ -25,11 +25,11 @@
     <audio class="audio" controls>
       {{ range $key, $track := .Site.Params.content.audio.tracks }}
         {{ if eq $track.tracknum 1 }}
-          <source src="audio/mp3/{{ $track.name }}.mp3">
-          <source src="audio/ogg/{{ $track.name }}.ogg">
+          <source src="audio/mp3/{{ printf "%02d" $track.tracknum }}-{{ $track.name }}.mp3">
+          <source src="audio/ogg/{{ printf "%02d" $track.tracknum }}-{{ $track.name }}.ogg">
         {{ end }}
       {{ end }}
-      Your browser doesn't support HTML5 :'(
+      Your browser doesn't support HTML5 :'&#40;
     </audio>
 
     <div id="audio-controls">
@@ -40,8 +40,8 @@
     <ul id="playlist">
     {{ range $key, $track := .Site.Params.content.audio.tracks }}
       {{ if ne $track.disabled true }}
-      <li {{ if $track.active }}class='active'{{ end }}>
-        <a href="audio/mp3/{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">
+      <li{{ if $track.active }} class='active'{{ end }}>
+        <a href="audio/mp3/{{ printf "%02d" $track.tracknum }}-{{ $track.name }}.mp3" title="{{ $track.trans }}" alt="{{ $track.trans }}">
           <div class='chars-bg'>{{ $track.chars }}</div>
           <label>{{ $track.tracknum }}</label>
           <div class='titles'>

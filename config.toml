@@ -242,7 +242,7 @@ googleAnalytics = ""
       heading = "Social"
 
       [[params.links.list3.link]]
-        text = "Candice"
+        text = "Cam"
         url = "https://www.facebook.com/candice.norcross"
 
       [[params.links.list3.link]]

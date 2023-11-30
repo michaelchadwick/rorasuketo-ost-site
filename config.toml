@@ -75,9 +75,9 @@ googleAnalytics = ""
 
         [params.content.audio.tracks.track04]
           tracknum = 4
-          name = "nokori"
+          name = "kyuushi"
           trans = "rest"
-          chars = "残り"
+          chars = "休止"
 
         [params.content.audio.tracks.track05]
           tracknum = 5
@@ -111,9 +111,9 @@ googleAnalytics = ""
 
         [params.content.audio.tracks.track10]
           tracknum = 10
-          name = "shinryosho-sutori"
+          name = "seishinbyouin-monogatari"
           trans = "clinic - story/plot"
-          chars = "診療所 - ストーリー"
+          chars = "精神病院 - 物語"
 
         [params.content.audio.tracks.track11]
           tracknum = 11
@@ -123,81 +123,81 @@ googleAnalytics = ""
 
         [params.content.audio.tracks.track12]
           tracknum = 12
-          name = "ushinawareta"
+          name = "mayou"
           trans = "lost"
-          chars = "失われた"
+          chars = "迷う"
 
         [params.content.audio.tracks.track13]
           tracknum = 13
-          name = "jukuko"
-          trans = "ponder"
-          chars = "熟考"
-
-        [params.content.audio.tracks.track14]
-          tracknum = 14
-          name = "utagai"
-          trans = "suspicion"
-          chars = "疑い"
-
-        [params.content.audio.tracks.track15]
-          tracknum = 15
-          name = "suketo-shimai"
-          trans = "skate sisters"
-          chars = "スケート姉妹"
-
-        [params.content.audio.tracks.track16]
-          tracknum = 16
-          name = "roradabi3"
-          trans = "roller derby 3"
-          chars = "ローラーダービー 3"
-
-        [params.content.audio.tracks.track17]
-          tracknum = 17
-          name = "shinryosho-shizuka"
-          trans = "clinic - quiet"
-          chars = "診療所 - 静か"
-
-        [params.content.audio.tracks.track18]
-          tracknum = 18
-          name = "roradabi4"
-          trans = "roller derby 4"
-          chars = "ローラーダービー 4"
-
-        [params.content.audio.tracks.track19]
-          tracknum = 19
-          name = "yuyo"
-          trans = "respite"
-          chars = "猶予"
-
-        [params.content.audio.tracks.track20]
-          tracknum = 20
-          name = "kosuto-suramingu"
-          trans = "coast slumming"
-          chars = "コースト・スラミング"
-
-        [params.content.audio.tracks.track21]
-          tracknum = 21
-          name = "hoshi"
-          trans = "the stars / las estrellas"
-          chars = "星"
-
-        [params.content.audio.tracks.track22]
-          tracknum = 22
-          name = "suketorinku"
-          trans = "skating rink"
-          chars = "スケートリンク"
-
-        [params.content.audio.tracks.track23]
-          tracknum = 23
           name = "meinsutoritonyuyoku"
           trans = "main street new york"
           chars = "メインストリートニューヨーク"
 
-        [params.content.audio.tracks.track24]
-          tracknum = 24
+        [params.content.audio.tracks.track14]
+          tracknum = 14
+          name = "shian"
+          trans = "ponder"
+          chars = "思案"
+
+        [params.content.audio.tracks.track15]
+          tracknum = 15
+          name = "utagai"
+          trans = "suspicion"
+          chars = "疑い"
+
+        [params.content.audio.tracks.track16]
+          tracknum = 16
+          name = "suketo-shimai"
+          trans = "skate sisters"
+          chars = "スケート姉妹"
+
+        [params.content.audio.tracks.track17]
+          tracknum = 17
+          name = "roradabi3"
+          trans = "roller derby 3"
+          chars = "ローラーダービー 3"
+
+        [params.content.audio.tracks.track18]
+          tracknum = 18
+          name = "seishinbyouin-shizuka"
+          trans = "clinic - quiet"
+          chars = "精神病院 - 静か"
+
+        [params.content.audio.tracks.track19]
+          tracknum = 19
+          name = "roradabi4"
+          trans = "roller derby 4"
+          chars = "ローラーダービー 4"
+
+        [params.content.audio.tracks.track20]
+          tracknum = 20
           name = "meinsutoritotekisasu"
           trans = "main street texas"
           chars = "メインストリートテキサス"
+
+        [params.content.audio.tracks.track21]
+          tracknum = 21
+          name = "kosuto-suramingu"
+          trans = "coast slumming"
+          chars = "コースト・スラミング"
+
+        [params.content.audio.tracks.track22]
+          tracknum = 22
+          name = "hoshitachi"
+          trans = "the stars / las estrellas"
+          chars = "星達"
+
+        [params.content.audio.tracks.track23]
+          tracknum = 23
+          name = "suketorinku"
+          trans = "skating rink"
+          chars = "スケートリンク"
+
+        [params.content.audio.tracks.track24]
+          tracknum = 24
+          name = "yuyo"
+          trans = "respite"
+          chars = "猶予"
 
   # Section - Links
   #

@@ -184,7 +184,7 @@ googleAnalytics = ""
         [params.content.audio.tracks.track22]
           tracknum = 22
           name = "hoshitachi"
-          trans = "the stars / las estrellas"
+          trans = "the stars"
           chars = "星達"
 
         [params.content.audio.tracks.track23]
@@ -196,7 +196,7 @@ googleAnalytics = ""
         [params.content.audio.tracks.track24]
           tracknum = 24
           name = "yuyo"
-          trans = "respite"
+          trans = "grace"
           chars = "猶予"
 
   # Section - Links

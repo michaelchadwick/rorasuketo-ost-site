@@ -2,7 +2,7 @@ button.fas {
   font-size: 1.25em;
   margin: 0 auto;
   padding: 0;
-  width: 49%; }
+  width: 50%; }
   button.fas:hover {
     cursor: pointer; }
 
@@ -110,6 +110,7 @@ button.fas {
     .fs-split .split-content .split-content-vertically-center .split-audio audio {
       width: 100%; }
     .fs-split .split-content .split-content-vertically-center .split-audio #audio-controls {
+      display: flex;
       padding: 0; }
     .fs-split .split-content .split-content-vertically-center .split-audio #playlist {
       background: #666;

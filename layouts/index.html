@@ -35,9 +35,14 @@
         <!-- Bio -->
         {{ partial "bio" . }}
 
+        <!-- Characters -->
+        <h2>Characters</h2>
+        {{ partial "characters" . }}
+
         <!-- Audio -->
         {{ if .Site.Params.content.audio.enable }}
 
+          <h2>Soundtrack</h2>
           {{ partial "audio" . }}
 
         {{ end }}

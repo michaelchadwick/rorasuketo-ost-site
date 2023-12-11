@@ -1,0 +1,9 @@
+<div class="split-characters">
+  {{ range $key, $char := .Site.Params.content.characters }}
+    <div class="character">
+      <!--<img src="{{ $char.image }}">-->
+      <h3 class="title">{{ $char.title }}</h3>
+      <p>{{ $char.text }}</p>
+    </div>
+  {{ end }}
+</div>

@@ -204,27 +204,27 @@ googleAnalytics = ""
     [params.content.characters.1kady]
       title = 'Kady'
       text = "A young woman who is struggling to find her reason to live. Unemployed, living alone, and without a hobby - she needs to fill that void. And she does when she discovers roller derby. She can be a Debbie Downer at times, but is stronger than she thinks. And she's about to discover just how strong she is!"
-      image = 'kady.jpg'
+      image = 'images/kady.png'
 
     [params.content.characters.2stella]
       title = 'Stella'
       text = 'A fellow patient from the mental hospital, Stella is smarmy and sassy. But everyone needs a friend who can administer tough love every now and again. Stella convinces Kady to join the local roller derby team and guides her through the trials and tribulations.'
-      image = 'stella.jpg'
+      image = 'images/stella.png'
 
     [params.content.characters.3hiba]
       title = "Hiba"
       text = "A little hibagon (sasquatch) who assists the player through tutorials and battle mechanics. He's a helpful and kawaii guy."
-      image = 'hiba.jpg'
+      image = 'images/hiba.png'
 
     [params.content.characters.4bcb]
       title = 'Barnes City Bombers'
       text = 'The local roller derby team, its 6 veteran skaters range from mean girl to gamer geek to exercise freak. Chat with them and buy them gifts to watch your friendship grow!'
-      image = 'barnes_city_bombers.jpg'
+      image = 'images/bcb.png'
 
     [params.content.characters.5glitz]
       title = 'Glitz'
       text = "Head coach of the Bombers. She is suspicious of the rookie Kady's sudden talent and wonders if she is getting help from somewhere else. But where? Something about the way she skates is familiar..."
-      image = 'glitz.jpg'
+      image = 'images/glitz.png'
 
   # Section - Links
   #

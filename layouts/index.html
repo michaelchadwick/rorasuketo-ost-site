@@ -32,22 +32,28 @@
         <!-- Intro -->
         {{ partial "intro" . }}
 
+        <!-- Anchors -->
+        {{ partial "anchors" . }}
+
         <!-- Bio -->
         {{ partial "bio" . }}
 
         <!-- Characters -->
+        <a name="characters"></a>
         <h2>Characters</h2>
         {{ partial "characters" . }}
 
         <!-- Audio -->
         {{ if .Site.Params.content.audio.enable }}
 
+          <a name="soundtrack"></a>
           <h2>Soundtrack</h2>
           {{ partial "audio" . }}
 
         {{ end }}
 
         <!-- Links -->
+        <a name="credits"></a>
         {{ partial "links" . }}
 
         <!-- Footer -->

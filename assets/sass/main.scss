@@ -6,6 +6,18 @@ body {
   }
 }
 
+a {
+  &.mini {
+    font-size: 0.7rem;
+    text-decoration: underline;
+
+    &:hover {
+      color: #ffffff;
+      text-shadow: 0 0 2px #47bec7, 0 0 2px #47bec7;
+    }
+  }
+}
+
 button {
   &.fas {
     font-size: 1.25em;
@@ -105,7 +117,32 @@ h3 {
         margin-bottom: 25px;
 
         .character {
-          margin-bottom: 10px;
+          clear: left;
+          margin-bottom: 25px;
+
+          figure {
+            background-color: #02111d;
+            border: 2px solid #000000;
+            float: left;
+            margin: 5px 15px 10px 0;
+            max-width: 100px;
+            padding: 15px 15px 5px;
+
+            img {
+              height: 100%;
+              max-width: 96px;
+            }
+
+            h3 {
+              font-size: 1.5rem;
+            }
+          }
+
+          p {
+            font-size: 1.25rem;
+            line-height: 1.33;
+            padding-top: 5px;
+          }
         }
       }
 

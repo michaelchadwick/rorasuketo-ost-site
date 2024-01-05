@@ -217,13 +217,13 @@ googleAnalytics = ""
       image = 'images/hiba.png'
 
     [params.content.characters.4bcb]
-      title = 'Barnes City Bombers'
+      title = 'Barnes City Brawlers'
       text = 'The local roller derby team, its 7 veteran skaters range from mean girl to gamer geek to exercise freak. Chat with them and buy them gifts to watch your friendship grow!'
       image = 'images/bcb.png'
 
     [params.content.characters.5glitz]
       title = 'Glitz'
-      text = "Head coach of the Bombers. She is suspicious of the rookie Kady's sudden talent and wonders if she is getting help from somewhere else. But where? Something about the way she skates is familiar..."
+      text = "Head coach of the Brawlers. She is suspicious of the rookie Kady's sudden talent and wonders if she is getting help from somewhere else. But where? Something about the way she skates is familiar..."
       image = 'images/glitz.png'
 
   # Section - Links

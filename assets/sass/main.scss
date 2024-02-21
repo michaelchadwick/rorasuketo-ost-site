@@ -46,6 +46,12 @@ h3 {
   margin-bottom: 5px;
 }
 
+i {
+  &.fa-brands {
+    width: 24px;
+  }
+}
+
 #fullsingle {
   overflow-x: hidden;
 }
@@ -144,6 +150,24 @@ h3 {
             font-size: 1.25rem;
             line-height: 1.33;
             padding-top: 5px;
+          }
+        }
+      }
+
+      .split-downloads {
+        ul {
+          li {
+            align-items: center;
+            display: flex;
+
+            a {
+              font-size: 1rem;
+              font-weight: 700;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
           }
         }
       }

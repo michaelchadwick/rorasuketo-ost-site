@@ -5,7 +5,7 @@ task :deploy do |t|
 end
 
 task :serve do |t|
-  sh "open http://localhost:1313 && hugo -b http://localhost:1313 server -D"
+  sh "open http://localhost:1313 && hugo -b http://localhost:1313 server -wD"
 end
 
 task :default => [:deploy]

@@ -6,5 +6,6 @@ assets/sass
 images/background.jpg
 images/social.jpg
 videos
+LICENSE.md
 Rakefile
 TODO.md

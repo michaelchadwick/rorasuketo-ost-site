@@ -1,6 +1,6 @@
 # Rorasuketo OST
 
-Hugo source code for [Rorasuketo OST](https://nebyoolae.com/rora) one-page web site.
+[Hugo](https://gohugo.io) source code for [Rorasuketo OST](https://rorasuketo.win) one-page web site.
 
 ## build
 
@@ -8,4 +8,4 @@ Hugo source code for [Rorasuketo OST](https://nebyoolae.com/rora) one-page web s
 
 ## run
 
-`$ cd /path/to/rorasuketo; hugo server -D`
+`$ cd /path/to/rorasuketo; hugo -b http://localhost:1313 server -D`

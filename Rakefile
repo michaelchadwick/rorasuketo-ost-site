@@ -1,6 +1,6 @@
 task :deploy do |t|
   sh "git push origin master"
-  sh "hugo -b $RORASUKETO_PROD_URL"
+  sh "hugo -b /"
   sh "rsync -auP --no-p --exclude-from='rsync-exclude.txt' ./public/ $RORASUKETO_REMOTE"
 end
 

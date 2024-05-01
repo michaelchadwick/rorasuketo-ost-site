@@ -33,7 +33,7 @@ googleAnalytics = ""
     [params.visual.image]
       enable = true
       file = "images/rorasuketo-screen.png"
-      position = "center center"
+      position = "center 50%"
 
   # Section - Content
   [params.content]
@@ -281,7 +281,7 @@ googleAnalytics = ""
         url = "https://www.facebook.com/tiffyjustine"
 
   # Copyright
-  copyright = "&copy;2018 Codana.me"
+  copyright = "&copy;2024 Codana.me"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

@@ -58,18 +58,24 @@
 <!-- Image Styles -->
 {{ if .Site.Params.visual.image.enable }}
   {{ if .Site.Params.visual.image.file }}
-  <style type="text/css">
-    .fs-split .split-image {
-      background-image: url("{{ .Site.Params.visual.image.file }}");
-      background-position:
-      {{ if .Site.Params.visual.image.position }}
-        {{ .Site.Params.visual.image.position }}
-      {{ else }}
-        center center
-      {{ end }}
-      ;
-    }
-  </style>
+    {{ if .Site.Params.visual.image.position }}
+      <style type="text/css">
+        :root {
+          --image-bg-position: {{ .Site.Params.visual.image.position }};
+        }
+        .fs-split .split-image {
+          background-image: url("{{ .Site.Params.visual.image.file }}");
+          background-position: var(--image-bg-position);
+        }
+      </style>
+    {{ else }}
+      <style type="text/css">
+        .fs-split .split-image {
+          background-image: url("{{ .Site.Params.visual.image.file }}");
+          background-position: center center;
+        }
+      </style>
+    {{ end }}
   {{ end }}
 {{ end }}
 

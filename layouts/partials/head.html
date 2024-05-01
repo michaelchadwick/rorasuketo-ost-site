@@ -42,9 +42,9 @@
 
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-{{ $splitSass := resources.Get "sass/split.scss" | resources.ToCSS (dict "targetPath" "/assets/css/split.css") }}
+{{ $splitSass := resources.Get "sass/split.scss" | resources.ToCSS (dict "targetPath" "assets/css/split.css") }}
 <link rel="stylesheet" href="{{ $splitSass.Permalink }}" type="text/css" />
-{{ $mainSass := resources.Get "sass/main.scss" | resources.ToCSS (dict "targetPath" "/assets/css/main.css") }}
+{{ $mainSass := resources.Get "sass/main.scss" | resources.ToCSS (dict "targetPath" "assets/css/main.css") }}
 <link rel="stylesheet" href="{{ $mainSass.Permalink }}" type="text/css" />
 
 <!-- FONTAWESOME

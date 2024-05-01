@@ -7,5 +7,10 @@ public
 # Hugo caching
 resources/_gen
 
+# Hugo /static/
+# most stuff is too big, so ignore
+static/audio
 !static/icons
+!static/js/vendor
+static/video
 static/zip

@@ -1,4 +1,4 @@
-baseURL = "https://neb.host/audio/rora"
+baseURL = ""
 languageCode = "en-us"
 title = "Rorasuketo OST"
 theme = "hugo-split-theme"

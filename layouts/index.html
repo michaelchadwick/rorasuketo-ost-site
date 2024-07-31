@@ -1,74 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    {{ partial "head" . }}
+  </head>
 
-<head>
-  {{ partial "head" . }}
-</head>
+  <body id="fullsingle" class="page-template-page-fullsingle-split">
+    <div class="fs-split">
+      <!-- Video -->
+      {{ if .Site.Params.visual.video.enable }} {{ partial "video" . }} {{ end }}
 
-<body id="fullsingle" class="page-template-page-fullsingle-split">
+      <!-- Image -->
+      {{ if .Site.Params.visual.image.enable }}
 
-  <div class="fs-split">
+      <div class="split-image"></div>
 
-    <!-- Video -->
-    {{ if .Site.Params.visual.video.enable }}
+      {{ end }}
 
-      {{ partial "video" . }}
+      <!-- Content Side -->
+      <div class="split-content">
+        <div class="split-content-vertically-center">
+          <!-- Intro -->
+          {{ partial "intro" . }}
 
-    {{ end }}
+          <!-- Anchors -->
+          {{ partial "anchors" . }}
 
-    <!-- Image -->
-    {{ if .Site.Params.visual.image.enable }}
+          <!-- Bio -->
+          {{ partial "bio" . }}
 
-      <div class="split-image">
+          <!-- Characters -->
+          <a name="characters"></a>
+          <h2>Characters</h2>
+          {{ partial "characters" . }}
 
-      </div>
+          <!-- Downloads -->
+          <a name="downloads"></a>
+          <h2>Demo</h2>
+          {{ partial "downloads" . }}
 
-    {{ end }}
-
-    <!-- Content Side -->
-    <div class="split-content">
-      <div class="split-content-vertically-center">
-
-        <!-- Intro -->
-        {{ partial "intro" . }}
-
-        <!-- Anchors -->
-        {{ partial "anchors" . }}
-
-        <!-- Bio -->
-        {{ partial "bio" . }}
-
-        <!-- Characters -->
-        <a name="characters"></a>
-        <h2>Characters</h2>
-        {{ partial "characters" . }}
-
-        <!-- Downloads -->
-        <h2>Demo</h2>
-        {{ partial "downloads" . }}
-
-        <!-- Audio -->
-        {{ if .Site.Params.content.audio.enable }}
+          <!-- Audio -->
+          {{ if .Site.Params.content.audio.enable }}
 
           <a name="soundtrack"></a>
           <h2>Soundtrack</h2>
-          {{ partial "audio" . }}
+          {{ partial "audio" . }} {{ end }}
 
-        {{ end }}
+          <!-- Links -->
+          <a name="credits"></a>
+          {{ partial "links" . }}
 
-        <!-- Links -->
-        <a name="credits"></a>
-        {{ partial "links" . }}
-
-        <!-- Credits -->
-        {{ partial "credits" . }}
-
+          <!-- Credits -->
+          {{ partial "credits" . }}
+        </div>
       </div>
     </div>
 
-  </div>
-
-  {{ partial "footer" . }}
-
-</body>
+    {{ partial "footer" . }}
+  </body>
 </html>

@@ -1,6 +1,7 @@
 body {
   &.page-template-page-fullsingle-split {
-    & p, a {
+    & p,
+    a {
       color: #eff4fb;
     }
   }
@@ -8,7 +9,7 @@ body {
 
 a {
   &.mini {
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-decoration: underline;
 
     &:hover {
@@ -344,32 +345,31 @@ i {
     }
   }
 }
-  @media (min-width: 801px) {
-    .fs-split {
-      .split-content {
-        .split-content-vertically-center {
-          padding: 40px 40px 80px 40px;
+@media (min-width: 801px) {
+  .fs-split {
+    .split-content {
+      .split-content-vertically-center {
+        padding: 40px 40px 80px 40px;
 
-          .split-intro {
-            div {
-              &.tagchars {
-                left: 0;
-              }
+        .split-intro {
+          div {
+            &.tagchars {
+              left: 0;
             }
           }
+        }
 
-          .split-bio {
-            padding: 20px 0;
-          }
+        .split-bio {
+          padding: 20px 0;
+        }
 
-          .split-audio {
-            #playlist {
-              padding: 2px;
+        .split-audio {
+          #playlist {
+            padding: 2px;
 
-              li {
-                a {
-                  padding: 0 5px 5px 10px;
-                }
+            li {
+              a {
+                padding: 0 5px 5px 10px;
               }
             }
           }
@@ -377,12 +377,13 @@ i {
       }
     }
   }
-  @media (min-width: 1201px) {
-    .fs-split {
-      .split-content {
-        .split-content-vertically-center {
-          padding: 60px 60px 80px 60px;
-        }
+}
+@media (min-width: 1201px) {
+  .fs-split {
+    .split-content {
+      .split-content-vertically-center {
+        padding: 60px 60px 80px 60px;
       }
     }
   }
+}

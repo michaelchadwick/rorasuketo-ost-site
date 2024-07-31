@@ -2,183 +2,260 @@ button.fas {
   font-size: 1.25em;
   margin: 0 auto;
   padding: 0;
-  width: 50%; }
-  button.fas:hover {
-    cursor: pointer; }
+  width: 50%;
+}
+button.fas:hover {
+  cursor: pointer;
+}
 
 #fullsingle {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 @media (max-width: 800px) {
   .fs-split .split-image {
-    height: 60vw; }
+    height: 60vw;
+  }
   .fs-split .split-content .split-content-vertically-center {
-    padding: 30px 0; }
-    .fs-split .split-content .split-content-vertically-center .split-intro {
-      padding-left: 25px;
-      padding-right: 25px; }
-      .fs-split .split-content .split-content-vertically-center .split-intro div.tagchars {
-        left: 20px; }
-    .fs-split .split-content .split-content-vertically-center .split-bio {
-      padding-left: 25px;
-      padding-right: 25px; }
-    .fs-split .split-content .split-content-vertically-center .split-audio {
-      padding-left: 0;
-      padding-right: 0; }
-      .fs-split .split-content .split-content-vertically-center .split-audio #playlist {
-        padding: 0; }
-        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
-          padding: 0 15px 5px; }
-      .fs-split .split-content .split-content-vertically-center .split-audio .downloads {
-        padding-left: 25px;
-        padding-right: 25px; }
-    .fs-split .split-content .split-content-vertically-center .split-lists {
-      padding-left: 25px;
-      padding-right: 25px; }
-      .fs-split .split-content .split-content-vertically-center .split-lists .split-list {
-        margin-bottom: 20px; }
-        .fs-split .split-content .split-content-vertically-center .split-lists .split-list h3 {
-          margin-bottom: 15px; }
-    .fs-split .split-content .split-content-vertically-center .split-credit {
-      padding-left: 25px;
-      padding-right: 25px; } }
+    padding: 30px 0;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-intro {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-intro div.tagchars {
+    left: 20px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-bio {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-audio {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-audio #playlist {
+    padding: 0;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
+    padding: 0 15px 5px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-audio .downloads {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-lists {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-lists .split-list {
+    margin-bottom: 20px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-lists .split-list h3 {
+    margin-bottom: 15px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-credit {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 
 @media (min-width: 801px) {
   .fs-split .split-content .split-content-vertically-center {
-    padding: 40px 40px 80px 40px; }
-    .fs-split .split-content .split-content-vertically-center .split-intro div.tagchars {
-      left: 0; }
-    .fs-split .split-content .split-content-vertically-center .split-bio {
-      padding: 20px 0; }
-    .fs-split .split-content .split-content-vertically-center .split-audio #playlist {
-      padding: 2px; }
-      .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
-        padding: 0 5px 5px 10px; } }
+    padding: 40px 40px 80px 40px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-intro div.tagchars {
+    left: 0;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-bio {
+    padding: 20px 0;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-audio #playlist {
+    padding: 2px;
+  }
+  .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
+    padding: 0 5px 5px 10px;
+  }
+}
 
 @media (min-width: 1201px) {
   .fs-split .split-content .split-content-vertically-center {
-    padding: 60px 60px 80px 60px; } }
+    padding: 60px 60px 80px 60px;
+  }
+}
 
 .fs-split {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .fs-split .split-image {
-  background-size: cover; }
+  background-size: cover;
+}
 
 .fs-split .split-video {
   width: 50%;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .fs-split .split-content {
-  overflow-x: hidden; }
-  .fs-split .split-content .split-content-vertically-center .split-intro {
-    font-size: 64px;
-    font-weight: 600;
-    letter-spacing: -2px;
-    line-height: 60px;
-    position: relative;
-    z-index: 1; }
-    .fs-split .split-content .split-content-vertically-center .split-intro div.tagchars {
-      font-size: 44px;
-      letter-spacing: -2px;
-      opacity: 0.2;
-      position: absolute;
-      top: 22px;
-      z-index: 0; }
-    .fs-split .split-content .split-content-vertically-center .split-intro h1 {
-      color: #47bec7;
-      font-size: 16px;
-      font-weight: 400;
-      letter-spacing: 0.4px;
-      line-height: 16px;
-      margin-bottom: 0;
-      text-transform: uppercase; }
-    .fs-split .split-content .split-content-vertically-center .split-intro span.tagline {
-      font-size: 60px;
-      line-height: 10px; }
-  .fs-split .split-content .split-content-vertically-center .split-bio {
-    font-family: 'Lora', serif;
-    line-height: 29px; }
-  .fs-split .split-content .split-content-vertically-center .split-audio {
-    object-fit: contain;
-    object-position: 50% 50%;
-    padding-bottom: 30px; }
-    .fs-split .split-content .split-content-vertically-center .split-audio iframe {
-      height: auto;
-      position: relative;
-      width: 100%; }
-    .fs-split .split-content .split-content-vertically-center .split-audio audio {
-      width: 100%; }
-    .fs-split .split-content .split-content-vertically-center .split-audio #audio-controls {
-      display: flex;
-      padding: 0; }
-    .fs-split .split-content .split-content-vertically-center .split-audio #playlist {
-      background: #666;
-      height: auto;
-      width: auto; }
-      .fs-split .split-content .split-content-vertically-center .split-audio #playlist li {
-        display: grid; }
-        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a {
-          background: #153950;
-          color: #5db0e6;
-          text-decoration: none; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a div.translation {
-            color: #85b2d0; }
-        .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
-          background: #333;
-          color: #eeeedd;
-          display: block;
-          position: relative;
-          z-index: 2; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a:hover {
-            background-color: #555; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a label {
-            clear: left;
-            float: left;
-            font-size: 0.8em;
-            margin-right: 6px;
-            position: relative;
-            top: 2px; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.titles {
-            float: left;
-            z-index: 1; }
-            .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.titles div.translation {
-              color: #cdcdbd;
-              display: block;
-              font-size: 0.65em;
-              height: 10px;
-              position: relative;
-              top: -15px; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.chars-bg {
-            color: #999;
-            float: left;
-            font-family: 'Noto Sans Japanese', serif;
-            font-size: 1.3em;
-            font-weight: 600;
-            opacity: 0.2;
-            position: absolute;
-            left: 10px;
-            top: 5px;
-            z-index: 0; }
-          .fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.characters {
-            font-family: 'Noto Sans Japanese', serif;
-            font-weight: 400;
-            font-size: 0.8em;
-            float: right;
-            position: relative;
-            right: 5px;
-            top: 5px; }
-    .fs-split .split-content .split-content-vertically-center .split-audio .downloads {
-      padding-top: 10px; }
-      .fs-split .split-content .split-content-vertically-center .split-audio .downloads a {
-        color: #848d96;
-        font-size: 0.8em; }
-        .fs-split .split-content .split-content-vertically-center .split-audio .downloads a:hover {
-          color: #fff; }
-  .fs-split .split-content .split-content-vertically-center .split-lists .split-list ul li {
-    font-size: 0.7em;
-    line-height: 12px; }
-  .fs-split .split-content .split-content-vertically-center .split-credit a:hover {
-    color: #fff; }
-  .fs-split .split-content .split-content-vertically-center .split-credit p {
-    margin-bottom: 10px; }
+  overflow-x: hidden;
+}
+.fs-split .split-content .split-content-vertically-center .split-intro {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  line-height: 60px;
+  position: relative;
+  z-index: 1;
+}
+.fs-split .split-content .split-content-vertically-center .split-intro div.tagchars {
+  font-size: 44px;
+  letter-spacing: -2px;
+  opacity: 0.2;
+  position: absolute;
+  top: 22px;
+  z-index: 0;
+}
+.fs-split .split-content .split-content-vertically-center .split-intro h1 {
+  color: #47bec7;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.fs-split .split-content .split-content-vertically-center .split-intro span.tagline {
+  font-size: 60px;
+  line-height: 10px;
+}
+.fs-split .split-content .split-content-vertically-center .split-bio {
+  font-family: 'Lora', serif;
+  line-height: 29px;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio {
+  object-fit: contain;
+  object-position: 50% 50%;
+  padding-bottom: 30px;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio iframe {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio audio {
+  width: 100%;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #audio-controls {
+  display: flex;
+  padding: 0;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #playlist {
+  background: #666;
+  height: auto;
+  width: auto;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #playlist li {
+  display: grid;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #playlist li.active a {
+  background: #153950;
+  color: #5db0e6;
+  text-decoration: none;
+}
+.fs-split
+  .split-content
+  .split-content-vertically-center
+  .split-audio
+  #playlist
+  li.active
+  a
+  div.translation {
+  color: #85b2d0;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #playlist li a {
+  background: #333;
+  color: #eeeedd;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #playlist li a:hover {
+  background-color: #555;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #playlist li a label {
+  clear: left;
+  float: left;
+  font-size: 0.8em;
+  margin-right: 6px;
+  position: relative;
+  top: 2px;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.titles {
+  float: left;
+  z-index: 1;
+}
+.fs-split
+  .split-content
+  .split-content-vertically-center
+  .split-audio
+  #playlist
+  li
+  a
+  div.titles
+  div.translation {
+  color: #cdcdbd;
+  display: block;
+  font-size: 0.65em;
+  height: 10px;
+  position: relative;
+  top: -15px;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio #playlist li a div.chars-bg {
+  color: #999;
+  float: left;
+  font-family: 'Noto Sans Japanese', serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  opacity: 0.2;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  z-index: 0;
+}
+.fs-split
+  .split-content
+  .split-content-vertically-center
+  .split-audio
+  #playlist
+  li
+  a
+  div.characters {
+  font-family: 'Noto Sans Japanese', serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  float: right;
+  position: relative;
+  right: 5px;
+  top: 5px;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio .downloads {
+  padding-top: 10px;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio .downloads a {
+  color: #848d96;
+  font-size: 0.8em;
+}
+.fs-split .split-content .split-content-vertically-center .split-audio .downloads a:hover {
+  color: #fff;
+}
+.fs-split .split-content .split-content-vertically-center .split-lists .split-list ul li {
+  font-size: 0.7em;
+  line-height: 12px;
+}
+.fs-split .split-content .split-content-vertically-center .split-credit a:hover {
+  color: #fff;
+}
+.fs-split .split-content .split-content-vertically-center .split-credit p {
+  margin-bottom: 10px;
+}

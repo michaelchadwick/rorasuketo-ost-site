@@ -5,7 +5,7 @@
 public
 
 # Hugo caching
-resources/_gen
+resources
 
 # Hugo /static/
 # most stuff is too big, so ignore

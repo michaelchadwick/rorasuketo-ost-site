@@ -43,10 +43,10 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 {{ $splitSass := resources.Get "sass/split.scss" | resources.ToCSS (dict "targetPath"
 "./assets/css/split.css") }}
-<link rel="stylesheet" href="{{ $splitSass.Permalink }}" type="text/css" />
+<link rel="stylesheet" href="{{ $splitSass.RelPermalink }}" type="text/css" />
 {{ $mainSass := resources.Get "sass/main.scss" | resources.ToCSS (dict "targetPath"
 "./assets/css/main.css") }}
-<link rel="stylesheet" href="{{ $mainSass.Permalink }}" type="text/css" />
+<link rel="stylesheet" href="{{ $mainSass.RelPermalink }}" type="text/css" />
 
 <!-- FONTAWESOME
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->

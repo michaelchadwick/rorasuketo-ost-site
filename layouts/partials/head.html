@@ -46,12 +46,12 @@
   {{ $opts := dict "transpiler" "libsass" "targetPath" "css/split.css" }}
   {{ with . | toCSS $opts }}
     {{ if hugo.IsDevelopment }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
+      <link rel="stylesheet" href=".{{ .RelPermalink }}">
     {{ else }}
       {{ with . | minify | fingerprint }}
         <link
           rel="stylesheet"
-          href="{{ .RelPermalink }}"
+          href=".{{ .RelPermalink }}"
           integrity="{{ .Data.Integrity }}"
           crossorigin="anonymous"
           type="text/css"
@@ -64,12 +64,12 @@
   {{ $opts := dict "transpiler" "libsass" "targetPath" "css/main.css" }}
   {{ with . | toCSS $opts }}
     {{ if hugo.IsDevelopment }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
+      <link rel="stylesheet" href=".{{ .RelPermalink }}">
     {{ else }}
       {{ with . | minify | fingerprint }}
         <link
           rel="stylesheet"
-          href="{{ .RelPermalink }}"
+          href=".{{ .RelPermalink }}"
           integrity="{{ .Data.Integrity }}"
           crossorigin="anonymous"
           type="text/css"

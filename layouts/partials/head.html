@@ -10,6 +10,7 @@
 
 <!-- META
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="generator" content="Hugo {{ hugo.Version }}">
 {{ with .Site.Params.description }}
 <meta name="description" content="{{ . }}" />
 {{ end }} {{ with .Site.Params.name }}
@@ -41,24 +42,41 @@
 
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-{{ $opts := dict "transpiler" "libsass" "targetPath" "./assets/css/split.css" }} {{ with
-resources.Get "sass/split.scss" | toCSS $opts | minify | fingerprint }}
-<link
-  rel="stylesheet"
-  href="{{ .RelPermalink }}"
-  integrity="{{ .Data.Integrity }}"
-  crossorigin="anonymous"
-  type="text/css"
-/>
-{{ end }} {{ $opts := dict "transpiler" "libsass" "targetPath" "./assets/css/main.css" }} {{ with
-resources.Get "sass/main.scss" | toCSS $opts | minify | fingerprint }}
-<link
-  rel="stylesheet"
-  href="{{ .RelPermalink }}"
-  integrity="{{ .Data.Integrity }}"
-  crossorigin="anonymous"
-  type="text/css"
-/>
+{{ with resources.Get "sass/split.scss" }}
+  {{ $opts := dict "transpiler" "libsass" "targetPath" "css/split.css" }}
+  {{ with . | toCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | minify | fingerprint }}
+        <link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous"
+          type="text/css"
+        >
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ with resources.Get "sass/main.scss" }}
+  {{ $opts := dict "transpiler" "libsass" "targetPath" "css/main.css" }}
+  {{ with . | toCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | minify | fingerprint }}
+        <link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous"
+          type="text/css"
+        >
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 <!-- FONTAWESOME

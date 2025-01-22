@@ -10,7 +10,7 @@
 
 <!-- META
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<meta name="generator" content="Hugo {{ hugo.Version }}">
+<meta name="generator" content="Hugo {{ hugo.Version }}" />
 {{ with .Site.Params.description }}
 <meta name="description" content="{{ . }}" />
 {{ end }} {{ with .Site.Params.name }}
@@ -25,9 +25,6 @@
 <meta property="og:description" content="{{ . }}" />
 {{ end }} {{ with .Site.Params.shareImage }}
 <meta property="og:image" content="{{ . | absURL }}" />
-<meta name="twitter:card" content="summary_large_image" />
-{{ end }} {{ with .Site.Params.twitterHandle }}
-<meta name="twitter:site" content="@{{ . }}" />
 {{ end }}
 
 <!-- FAVICONS
@@ -42,42 +39,30 @@
 
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-{{ with resources.Get "sass/split.scss" }}
-  {{ $opts := dict "transpiler" "libsass" "targetPath" "css/split.css" }}
-  {{ with . | toCSS $opts }}
-    {{ if hugo.IsDevelopment }}
-      <link rel="stylesheet" href=".{{ .RelPermalink }}">
-    {{ else }}
-      {{ with . | minify | fingerprint }}
-        <link
-          rel="stylesheet"
-          href=".{{ .RelPermalink }}"
-          integrity="{{ .Data.Integrity }}"
-          crossorigin="anonymous"
-          type="text/css"
-        >
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
-{{ with resources.Get "sass/main.scss" }}
-  {{ $opts := dict "transpiler" "libsass" "targetPath" "css/main.css" }}
-  {{ with . | toCSS $opts }}
-    {{ if hugo.IsDevelopment }}
-      <link rel="stylesheet" href=".{{ .RelPermalink }}">
-    {{ else }}
-      {{ with . | minify | fingerprint }}
-        <link
-          rel="stylesheet"
-          href=".{{ .RelPermalink }}"
-          integrity="{{ .Data.Integrity }}"
-          crossorigin="anonymous"
-          type="text/css"
-        >
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+{{ with resources.Get "sass/split.scss" }} {{ $opts := dict "transpiler" "libsass" "targetPath"
+"css/split.css" }} {{ with . | toCSS $opts }} {{ if hugo.IsDevelopment }}
+<link rel="stylesheet" href=".{{ .RelPermalink }}" />
+{{ else }} {{ with . | minify | fingerprint }}
+<link
+  rel="stylesheet"
+  href=".{{ .RelPermalink }}"
+  integrity="{{ .Data.Integrity }}"
+  crossorigin="anonymous"
+  type="text/css"
+/>
+{{ end }} {{ end }} {{ end }} {{ end }} {{ with resources.Get "sass/main.scss" }} {{ $opts := dict
+"transpiler" "libsass" "targetPath" "css/main.css" }} {{ with . | toCSS $opts }} {{ if
+hugo.IsDevelopment }}
+<link rel="stylesheet" href=".{{ .RelPermalink }}" />
+{{ else }} {{ with . | minify | fingerprint }}
+<link
+  rel="stylesheet"
+  href=".{{ .RelPermalink }}"
+  integrity="{{ .Data.Integrity }}"
+  crossorigin="anonymous"
+  type="text/css"
+/>
+{{ end }} {{ end }} {{ end }} {{ end }}
 
 <!-- FONTAWESOME
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->

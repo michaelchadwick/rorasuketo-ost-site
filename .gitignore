@@ -10,6 +10,7 @@ resources
 # Hugo /static/
 # most stuff is too big, so ignore
 static/audio
+static/fonts
 !static/icons
 !static/js/vendor
 static/video

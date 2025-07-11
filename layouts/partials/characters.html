@@ -2,7 +2,7 @@
   {{ range $key, $char := .Site.Params.content.characters }}
   <div class="character">
     <figure>
-      <img src="{{ $char.image }}" />
+      <img src="{{ $char.image }}" alt="Portrait of {{ $char.title }}" />
       <h3 class="title">{{ $char.title }}</h3>
     </figure>
     <p>{{ $char.text }}</p>

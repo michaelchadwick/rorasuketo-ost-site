@@ -2,6 +2,7 @@ baseURL = "https://neb.host/audio/rora"
 languageCode = "en-us"
 title = "Rorasuketo OST"
 theme = "hugo-split-theme"
+copyright = "&copy;2025 Neb.host"
 
 disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
 
@@ -275,9 +276,6 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
       [[params.links.list3.link]]
         text = "Tiffany"
         url = "https://www.facebook.com/tiffyjustine"
-
-  # Copyright
-  copyright = "&copy;2024 Neb.host"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

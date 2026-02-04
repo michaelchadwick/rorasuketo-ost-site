@@ -249,16 +249,12 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
       heading = "Composer"
 
       [[params.links.list2.link]]
-        text = "MC.Info"
-        url = "http://michaelchadwick.info"
+        text = "Bandcamp"
+        url = "http://nebyoolae.bandcamp.com"
 
       [[params.links.list2.link]]
         text = "Soundcloud"
         url = "https://soundcloud.com/nebyoolae"
-
-      [[params.links.list2.link]]
-        text = "Bandcamp"
-        url = "http://nebyoolae.bandcamp.com"
 
   # Links List #3
   [[params.links]]
@@ -267,15 +263,15 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
 
       [[params.links.list3.link]]
         text = "Cam"
-        url = "https://www.facebook.com/candice.norcross"
+        url = "http://brainbreakcomic.com/about/"
 
       [[params.links.list3.link]]
-        text = "Michael"
-        url = "https://www.facebook.com/michael.chadwick"
+        text = "Mike"
+        url = "https://michaelchadwick.info"
 
       [[params.links.list3.link]]
         text = "Tiffany"
-        url = "https://www.facebook.com/tiffyjustine"
+        url = "https://www.linkedin.com/in/tiffany-vanpeenen"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

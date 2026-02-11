@@ -3,7 +3,7 @@ function getWidth () {
   var image = document.querySelector('.split-image')
   var video = document.querySelector('.split-video')
 
-  if (width < 800) {
+  if (width < 801) {
     video.style.display = 'none'
     image.style.display = 'block'
   } else {

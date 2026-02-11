@@ -23,7 +23,7 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
     [params.visual.video]
       enable = true
       mute = true
-      file = "video/rora-540p-low.mp4"
+      file = "video/rora-gameplay-new.mp4"
       # youtubeId = "dk9uNWPP7EA"
 
     # Image

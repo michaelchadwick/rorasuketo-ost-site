@@ -116,7 +116,8 @@ i {
         }
       }
 
-      .split-bio {
+      .split-bio,
+      .split-blog {
         font-family: 'Lora', serif;
         line-height: 29px;
       }
@@ -365,6 +366,10 @@ i {
 
         .split-bio {
           padding: 20px 0;
+        }
+
+        .split-blog {
+          padding: 10px 0 20px;
         }
 
         .split-audio {

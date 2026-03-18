@@ -1,6 +1,6 @@
-# Rorasuketo OST
+# Rorasuketo
 
-[Hugo](https://gohugo.io) source code for [Rorasuketo OST](https://rorasuketo.win) one-page web site.
+[Hugo](https://gohugo.io) source code for [Rorasuketo](https://rorasuketo.win) one-page ghost sports JRPG adventure, *Rorasuketo*.
 
 ## build
 

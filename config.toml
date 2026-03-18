@@ -1,16 +1,16 @@
-baseURL = "https://neb.host/audio/rora"
+baseURL = "https://rorasuketo.win"
 languageCode = "en-us"
-title = "Rorasuketo OST"
+title = "Rorasuketo"
 theme = "hugo-split-theme"
-copyright = "&copy;2025 Neb.host"
+copyright = "&copy;2026 Neb.host"
 
 disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
 
 [params]
 
   # Metadata for search engines and social sharing
-  name = "Rorasuketo OST"
-  description = "ghost sports adventure soundtrack"
+  name = "Rorasuketo"
+  description = "ghost sports jrpg mental health adventure"
   shareImage = "images/social.png"
 
   # Favicon
@@ -34,7 +34,7 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
 
   # Section - Content
   [params.content]
-    name = "Rorasuketo OST"
+    name = "Rorasuketo"
     tagline = "Chiptune. Derby."
     tagchars = "チップチューン. ダービー."
     bio = "Rorasuketo is a ghost sports adventure being created and designed by Cam Norcross, and co-written by Tiffany VanPeenen. Inspired by and orchestrated with classic SNES sounds, the soundtrack was written by Michael Chadwick."

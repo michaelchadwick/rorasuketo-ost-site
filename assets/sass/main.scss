@@ -43,7 +43,7 @@ h2 {
 h3 {
   color: #cccccc;
   font-family: 'Lora', serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 5px;
 }
 
@@ -116,10 +116,35 @@ i {
         }
       }
 
-      .split-bio,
-      .split-blog {
+      .split-bio {
         font-family: 'Lora', serif;
         line-height: 29px;
+      }
+
+      .split-news {
+        line-height: 1.2;
+
+        a {
+          font-size: 1rem;
+          line-height: 1;
+          text-decoration: underline;
+
+          &:hover {
+            color: #a0dde1;
+          }
+        }
+
+        .split-blog {
+          #recent-blog {
+            .contents {
+              background-color: #02172a;
+              border: 1px solid #555;
+              font-size: 1rem;
+              margin-top: 0.5em;
+              padding: 0.5em;
+            }
+          }
+        }
       }
 
       .split-characters {

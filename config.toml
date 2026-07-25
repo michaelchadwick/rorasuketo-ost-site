@@ -1,5 +1,5 @@
 baseURL = "https://rorasuketo.win"
-languageCode = "en-us"
+locale = "en-us"
 title = "Rorasuketo"
 theme = "hugo-split-theme"
 copyright = "&copy;2026 Neb.host"

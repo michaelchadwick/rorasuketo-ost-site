@@ -133,6 +133,10 @@ body.page-template-page-fullsingle-split {
 // Content
 //-------------------------------------------------------------------------------
 
+.split-nav {
+  margin: 0;
+}
+
 //-------------------------------------------------------------------------------
 // Intro Text
 //-------------------------------------------------------------------------------
@@ -163,16 +167,8 @@ body.page-template-page-fullsingle-split {
 //-------------------------------------------------------------------------------
 
 .split-bio {
-  padding: 40px 0 40px 0;
   font-family: "Lora", serif;
-
-  @media (max-width: $bp-smallish) {
-    padding: 30px 0;
-  }
-
-  @media (max-width: $bp-tablet) {
-    padding: 20px 0;
-  }
+  margin: 1em 0;
 
   p {
     color: $color-text;
@@ -187,31 +183,6 @@ body.page-template-page-fullsingle-split {
       color: $color-link-hover;
       transition-duration: 0.1s;
       border-bottom: 1px dotted $color-link-hover;
-    }
-  }
-}
-
-//-------------------------------------------------------------------------------
-// Steam
-//-------------------------------------------------------------------------------
-
-.split-steam {
-  margin: 1em 0;
-
-  .iframe-wrapper {
-    max-height: 190px;
-    min-height: 190px;
-    margin-top: 1em;
-    padding-top: 0;
-    position: relative;
-
-    iframe {
-      height: 100%;
-      left: 0;
-      max-height: 190px;
-      position: absolute;
-      top: 0;
-      width: 100%;
     }
   }
 }
@@ -260,10 +231,6 @@ body.page-template-page-fullsingle-split {
       }
     }
   }
-}
-
-.split-kofi {
-  padding-bottom: 1rem;
 }
 
 //-------------------------------------------------------------------------------

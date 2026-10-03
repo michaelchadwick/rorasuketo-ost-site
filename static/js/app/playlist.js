@@ -1,66 +1,65 @@
-/* global $ */
+(async function () {
+  let currentIndex = 0;
+  let track = null;
 
-$(function () {
-  var current = 0
-  var player = $('audio')[0]
-  var rewind = $('#rewind')
-  var forward = $('#forward')
-  var playlist = $('#playlist')
-  var tracks = playlist.find('li a')
-  var len = tracks.length - 1
-  var track = null
+  const player = document.querySelectorAll("audio")[0];
+  const rewind = document.querySelector("#rewind");
+  const forward = document.querySelector("#forward");
+  const playlist = document.querySelector("#playlist");
+  const tracks = playlist.querySelectorAll("li a");
+  const len = tracks.length - 1;
 
-  player.volume = 1.0
+  player.volume = 1.0;
 
-  playlist.on('click', 'a', function (e) {
-    e.preventDefault()
-    track = $(this)
-    current = track.parent().index()
-    play(track)
-  })
+  tracks.forEach((t) => {
+    t.addEventListener("click", (elem) => {
+      elem.preventDefault();
 
-  rewind.on('click', function (e) {
-    goBack(e)
-  })
+      track = elem.target.closest("a");
+      currentIndex = track.dataset.index - 1;
+      play(track);
+    });
+  });
 
-  forward.on('click', function (e) {
-    goForward(e)
-  })
+  rewind.addEventListener("click", (elem) => {
+    elem.preventDefault();
 
-  player.addEventListener('ended', function (e) {
-    goForward(e)
-  })
+    goBack();
+  });
 
-  function goForward (e) {
-    e.preventDefault()
+  forward.addEventListener("click", (elem) => {
+    elem.preventDefault();
 
-    if (current === len) {
-      current = 0
-    } else {
-      current = current + 1
-    }
-    changeTrack(current)
+    goForward();
+  });
+
+  player.addEventListener("ended", (elem) => {
+    elem.preventDefault();
+
+    goForward();
+  });
+
+  function goForward() {
+    currentIndex = currentIndex == len ? 0 : currentIndex + 1;
+
+    changeTrack(currentIndex);
   }
 
-  function goBack (e) {
-    e.preventDefault()
+  function goBack() {
+    currentIndex = currentIndex == 0 ? len : currentIndex - 1;
 
-    if (current === 0) {
-      current = len
-    } else {
-      current = current - 1
-    }
-    changeTrack(current)
+    changeTrack(currentIndex);
   }
 
-  function changeTrack (current) {
-    play($(playlist.find('a')[current]))
+  function changeTrack(currentIndex) {
+    play(tracks[currentIndex]);
   }
 
-  function play (track) {
-    player.src = track.attr('href')
-    track.parent().addClass('active').siblings().removeClass('active')
-    player.load()
-    player.play()
+  function play(track) {
+    player.src = track.href;
+    tracks.forEach((track) => track.closest("li").classList.remove("active"));
+    track.parentElement.classList.add("active");
+    player.load();
+    player.play();
   }
-})
+})();

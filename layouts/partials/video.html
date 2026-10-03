@@ -20,8 +20,7 @@
     class="video"
     src="{{ .Site.Params.visual.video.file }}"
     loop
-    autoplay{{
-    if
+    autoplay{{if
     .Site.Params.visual.video.mute
     }}
     muted{{

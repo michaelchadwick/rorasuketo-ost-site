@@ -1,21 +1,19 @@
-function getWidth () {
-  var width = window.innerWidth
-  var image = document.querySelector('.split-image')
-  var video = document.querySelector('.split-video')
+function getWidth() {
+  const image = document.querySelector(".split-image");
+  const video = document.querySelector(".split-video");
 
-  if (width < 801) {
-    video.style.display = 'none'
-    image.style.display = 'block'
+  if (window.innerWidth < 801) {
+    if (video) video.style.display = "none";
+    if (image) image.style.display = "block";
   } else {
-    video.style.display = 'block'
-    image.style.display = 'none'
+    if (video) video.style.display = "block";
+    if (image) image.style.display = "none";
   }
 }
 
-if (window.isMobile.any) {
-  var video = document.querySelector('.split-video')
-  video.parentNode.removeChild(video)
+if (window.innerWidth < 801) {
+  if (video) video.parentNode.removeChild(video);
 } else {
-  window.onload = getWidth
-  window.onresize = getWidth
+  window.onload = getWidth;
+  window.onresize = getWidth;
 }

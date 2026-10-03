@@ -39,7 +39,7 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
     tagchars = "チップチューン. ダービー."
     bio = "Rorasuketo is a ghost sports adventure being created and designed by Cam Norcross, and co-written by Tiffany VanPeenen. Inspired by and orchestrated with classic SNES sounds, the soundtrack was written by Michael Chadwick."
 
-    [params.content.audio]
+    [params.content.soundtrack]
       enable = true
       autoplay = false
       mute = false
@@ -50,147 +50,147 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
       #bandcampUrl = "http://nebyoolae.bandcamp.com/album/rorasuketo-ost"
       #bandcampUrlTitle = "Rorasuketo OST by Nebyoolae"
 
-      [params.content.audio.tracks]
-        [params.content.audio.tracks.track01]
+      [params.content.soundtrack.tracks]
+        [params.content.soundtrack.tracks.track01]
           tracknum = 1
           name = "mein-tema"
           trans = "main theme"
           chars = "メインテ ー マ"
           active = true
 
-        [params.content.audio.tracks.track02]
+        [params.content.soundtrack.tracks.track02]
           tracknum = 2
           name = "apato-ochitsuita"
           trans = "apartment - calm"
           chars = "アパート - 落ち着いた"
 
-        [params.content.audio.tracks.track03]
+        [params.content.soundtrack.tracks.track03]
           tracknum = 3
           name = "apato-isogashi"
           trans = "apartment - busy"
           chars = "アパート - 忙しい"
 
-        [params.content.audio.tracks.track04]
+        [params.content.soundtrack.tracks.track04]
           tracknum = 4
           name = "kyuushi"
           trans = "rest"
           chars = "休止"
 
-        [params.content.audio.tracks.track05]
+        [params.content.soundtrack.tracks.track05]
           tracknum = 5
           name = "meinsutoritoamerika"
           trans = "main street usa"
           chars = "メインストリートアメリカ"
 
-        [params.content.audio.tracks.track06]
+        [params.content.soundtrack.tracks.track06]
           tracknum = 6
           name = "roradabi1"
           trans = "roller derby 1"
           chars = "ローラーダービー 1"
 
-        [params.content.audio.tracks.track07]
+        [params.content.soundtrack.tracks.track07]
           tracknum = 7
           name = "lala-tema"
           trans = "lala - theme"
           chars = "ララテ ー マ"
 
-        [params.content.audio.tracks.track08]
+        [params.content.soundtrack.tracks.track08]
           tracknum = 8
           name = "inbo"
           trans = "intrigue"
           chars = "陰謀"
 
-        [params.content.audio.tracks.track09]
+        [params.content.soundtrack.tracks.track09]
           tracknum = 9
           name = "ranburubatoru"
           trans = "rumble battle"
           chars = "ランブルバトル"
 
-        [params.content.audio.tracks.track10]
+        [params.content.soundtrack.tracks.track10]
           tracknum = 10
           name = "seishinbyouin-monogatari"
           trans = "clinic - story/plot"
           chars = "精神病院 - 物語"
 
-        [params.content.audio.tracks.track11]
+        [params.content.soundtrack.tracks.track11]
           tracknum = 11
           name = "roradabi2"
           trans = "roller derby 2"
           chars = "ローラーダービー 2"
 
-        [params.content.audio.tracks.track12]
+        [params.content.soundtrack.tracks.track12]
           tracknum = 12
           name = "mayou"
           trans = "lost"
           chars = "迷う"
 
-        [params.content.audio.tracks.track13]
+        [params.content.soundtrack.tracks.track13]
           tracknum = 13
           name = "meinsutoritonyuyoku"
           trans = "main street new york"
           chars = "メインストリートニューヨーク"
 
-        [params.content.audio.tracks.track14]
+        [params.content.soundtrack.tracks.track14]
           tracknum = 14
           name = "shian"
           trans = "ponder"
           chars = "思案"
 
-        [params.content.audio.tracks.track15]
+        [params.content.soundtrack.tracks.track15]
           tracknum = 15
           name = "utagai"
           trans = "suspicion"
           chars = "疑い"
 
-        [params.content.audio.tracks.track16]
+        [params.content.soundtrack.tracks.track16]
           tracknum = 16
           name = "suketo-shimai"
           trans = "skate sisters"
           chars = "スケート姉妹"
 
-        [params.content.audio.tracks.track17]
+        [params.content.soundtrack.tracks.track17]
           tracknum = 17
           name = "roradabi3"
           trans = "roller derby 3"
           chars = "ローラーダービー 3"
 
-        [params.content.audio.tracks.track18]
+        [params.content.soundtrack.tracks.track18]
           tracknum = 18
           name = "seishinbyouin-shizuka"
           trans = "clinic - quiet"
           chars = "精神病院 - 静か"
 
-        [params.content.audio.tracks.track19]
+        [params.content.soundtrack.tracks.track19]
           tracknum = 19
           name = "roradabi4"
           trans = "roller derby 4"
           chars = "ローラーダービー 4"
 
-        [params.content.audio.tracks.track20]
+        [params.content.soundtrack.tracks.track20]
           tracknum = 20
           name = "meinsutoritotekisasu"
           trans = "main street texas"
           chars = "メインストリートテキサス"
 
-        [params.content.audio.tracks.track21]
+        [params.content.soundtrack.tracks.track21]
           tracknum = 21
           name = "kosuto-suramingu"
           trans = "coast slumming"
           chars = "コースト・スラミング"
 
-        [params.content.audio.tracks.track22]
+        [params.content.soundtrack.tracks.track22]
           tracknum = 22
           name = "hoshitachi"
           trans = "the stars"
           chars = "星達"
 
-        [params.content.audio.tracks.track23]
+        [params.content.soundtrack.tracks.track23]
           tracknum = 23
           name = "suketorinku"
           trans = "skating rink"
           chars = "スケートリンク"
 
-        [params.content.audio.tracks.track24]
+        [params.content.soundtrack.tracks.track24]
           tracknum = 24
           name = "yuyo"
           trans = "grace"

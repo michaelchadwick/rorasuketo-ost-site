@@ -1,5 +1,9 @@
 <div class="split-news">
   <h2>News</h2>
-  {{ partial "blog" . }}
-  {{ partial "podcast" . }}
+
+  <div class="section-wrapper">
+    <!-- prettier-ignore -->
+    {{ partial "blog" . }}
+    {{ partial "podcast" . }}
+  </div>
 </div>

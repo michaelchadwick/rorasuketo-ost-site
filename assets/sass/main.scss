@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,600");
+
 body {
   &.page-template-page-fullsingle-split {
     & p,
@@ -14,7 +16,9 @@ a {
 
     &:hover {
       color: #ffffff;
-      text-shadow: 0 0 2px #47bec7, 0 0 2px #47bec7;
+      text-shadow:
+        0 0 2px #47bec7,
+        0 0 2px #47bec7;
     }
   }
 }
@@ -35,14 +39,14 @@ button {
 h2 {
   clear: left;
   color: #dddddd;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-size: 2rem;
   margin-bottom: 15px;
   margin-top: 10px;
 }
 h3 {
   color: #cccccc;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-size: 1.5rem;
   margin-bottom: 5px;
 }
@@ -117,7 +121,7 @@ i {
       }
 
       .split-bio {
-        font-family: 'Lora', serif;
+        font-family: "Lora", serif;
         line-height: 29px;
       }
 
@@ -148,7 +152,7 @@ i {
       }
 
       .split-characters {
-        font-family: 'Lora', serif;
+        font-family: "Lora", serif;
         line-height: 29px;
         margin-bottom: 25px;
 
@@ -297,7 +301,7 @@ i {
                 &.chars-bg {
                   color: #999;
                   float: left;
-                  font-family: 'Noto Sans Japanese', serif;
+                  font-family: "Noto Sans Japanese", serif;
                   font-size: 1.3em;
                   font-weight: 600;
                   opacity: 0.2;
@@ -308,7 +312,7 @@ i {
                 }
 
                 &.characters {
-                  font-family: 'Noto Sans Japanese', serif;
+                  font-family: "Noto Sans Japanese", serif;
                   font-weight: 400;
                   font-size: 0.8em;
                   float: right;

@@ -232,8 +232,8 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
       heading = "Game"
 
       [[params.links.list1.link]]
-        text = "Game OST @ Bandcamp"
-        url = "https://nebyoolae.bandcamp.com/album/rorasuketo-ost"
+        text = "Rorasuketo @ Steam"
+        url = "https://store.steampowered.com/app/4401480/Rorasuketo/"
 
       [[params.links.list1.link]]
         text = "Ghost Sports"
@@ -247,6 +247,10 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
   [[params.links]]
     [params.links.list2]
       heading = "Composer"
+
+      [[params.links.list2.link]]
+        text = "Game OST @ Bandcamp"
+        url = "https://nebyoolae.bandcamp.com/album/rorasuketo-ost"
 
       [[params.links.list2.link]]
         text = "Bandcamp"

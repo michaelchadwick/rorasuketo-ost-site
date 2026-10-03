@@ -39,7 +39,7 @@
 
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-{{ with resources.Get "sass/split.scss" }} {{ $opts := dict "transpiler" "libsass" "targetPath"
+{{ with resources.Get "sass/split.scss" }} {{ $opts := dict "transpiler" "dartsass" "targetPath"
 "css/split.css" }} {{ with . | toCSS $opts }} {{ if hugo.IsDevelopment }}
 <link rel="stylesheet" href=".{{ .RelPermalink }}" />
 {{ else }} {{ with . | minify | fingerprint }}
@@ -51,7 +51,7 @@
   type="text/css"
 />
 {{ end }} {{ end }} {{ end }} {{ end }} {{ with resources.Get "sass/main.scss" }} {{ $opts := dict
-"transpiler" "libsass" "targetPath" "css/main.css" }} {{ with . | toCSS $opts }} {{ if
+"transpiler" "dartsass" "targetPath" "css/main.css" }} {{ with . | toCSS $opts }} {{ if
 hugo.IsDevelopment }}
 <link rel="stylesheet" href=".{{ .RelPermalink }}" />
 {{ else }} {{ with . | minify | fingerprint }}
@@ -99,7 +99,7 @@ hugo.IsDevelopment }}
 {{ else }}
 <style type="text/css">
   .fs-split .split-image {
-    background-image: url('{{ .Site.Params.visual.image.file }}');
+    background-image: url("{{ .Site.Params.visual.image.file }}");
     background-position: center center;
   }
 </style>

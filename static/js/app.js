@@ -12,7 +12,6 @@ Rora.init = () => {
   // adjust <title> for env
   if (Rora.env == "local") {
     if (!document.title.includes("(LH) ")) {
-      console.log("foo");
       document.title = "(LH) " + document.title;
     }
   }

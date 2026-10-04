@@ -267,7 +267,7 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
 
       [[params.links.list3.link]]
         text = "Cam"
-        url = "http://brainbreakcomic.com/about/"
+        url = "http://dontcallmecandy.com"
 
       [[params.links.list3.link]]
         text = "Mike"

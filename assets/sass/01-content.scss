@@ -142,16 +142,11 @@ body.page-template-page-fullsingle-split {
 //-------------------------------------------------------------------------------
 
 .split-intro {
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 80px;
   letter-spacing: -2px;
 
   h1 {
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 16px;
-    line-height: 16px;
     margin-bottom: 40px;
     letter-spacing: 0.4px;
     color: $color-maverick;
@@ -206,7 +201,7 @@ body.page-template-page-fullsingle-split {
       font-weight: 400;
       text-transform: uppercase;
       font-size: 11px;
-      line-height: 11px;
+      line-height: 1;
       margin-bottom: 31px;
       color: $color-text;
       letter-spacing: 2px;
@@ -216,7 +211,7 @@ body.page-template-page-fullsingle-split {
     ul {
       li {
         font-size: 16px;
-        line-height: 16px;
+        line-height: 1;
         margin-bottom: 12px;
 
         a {
@@ -246,7 +241,7 @@ body.page-template-page-fullsingle-split {
 
   p {
     font-size: 14px;
-    line-height: 14px;
+    line-height: 1;
 
     a {
       color: $color-text;

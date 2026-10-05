@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,600");
 
 body {
+  line-height: 0.8;
+
   &.page-template-page-fullsingle-split {
     & p,
     a {
@@ -91,16 +93,16 @@ i {
       }
 
       .split-intro {
-        font-size: 64px;
+        font-size: 4rem;
         font-weight: 600;
         letter-spacing: -2px;
-        line-height: 60px;
+        line-height: 1;
         position: relative;
         z-index: 1;
 
         div {
           &.tagchars {
-            font-size: 44px;
+            font-size: 2.75rem;
             left: 20px;
             letter-spacing: -2px;
             opacity: 0.2;
@@ -116,25 +118,22 @@ i {
 
         h1 {
           color: #47bec7;
-          font-size: 16px;
+          font-size: 1rem;
           font-weight: 400;
           letter-spacing: 0.4px;
-          line-height: 16px;
           margin-bottom: 0;
           text-transform: uppercase;
         }
 
         span {
           &.tagline {
-            font-size: 60px;
-            line-height: 10px;
+            font-size: 3.75rem;
           }
         }
       }
 
       .split-bio {
         font-family: "Lora", serif;
-        line-height: 29px;
       }
 
       .split-steam {
@@ -158,7 +157,7 @@ i {
         }
 
         .content-warning {
-          font-size: 18px;
+          font-size: 1.1rem;
           line-height: 1.1;
           margin: 0.5em 0;
         }
@@ -183,7 +182,7 @@ i {
           padding: 0.5em;
 
           .split-blog {
-            margin-bottom: 0.5em;
+            margin-bottom: 1em;
           }
 
           .split-blog {
@@ -200,7 +199,7 @@ i {
 
       .split-characters {
         font-family: "Lora", serif;
-        line-height: 29px;
+        line-height: 1;
         margin: 1em 0;
 
         .character {
@@ -264,7 +263,6 @@ i {
         margin: 1em 0;
         object-fit: contain;
         object-position: 50% 50%;
-        padding-bottom: 30px;
         padding-left: 0;
         padding-right: 0;
 
@@ -382,21 +380,6 @@ i {
             }
           }
         }
-
-        .downloads {
-          padding-left: 25px;
-          padding-right: 25px;
-          padding-top: 10px;
-
-          a {
-            color: #848d96;
-            font-size: 0.8em;
-
-            &:hover {
-              color: #fff;
-            }
-          }
-        }
       }
 
       .split-lists {
@@ -411,7 +394,6 @@ i {
           ul {
             li {
               font-size: 0.7em;
-              line-height: 12px;
 
               a {
                 &:hover {
@@ -449,7 +431,7 @@ footer#footer-neb-host {
   color: #aaaaaa;
   display: table;
   font-family: "Consolas", sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem;
   height: 18px;
   letter-spacing: initial;
   margin-top: 20px;
@@ -462,6 +444,6 @@ footer#footer-neb-host {
   a {
     color: #ffffff;
     font-family: "Consolas", sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }

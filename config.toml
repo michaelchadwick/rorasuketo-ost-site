@@ -37,7 +37,7 @@ disableKinds = ["page", "section", "taxonomy", "RSS", "sitemap", "robotsTXT"]
     name = "Rorasuketo"
     tagline = "Chiptune. Derby."
     tagchars = "チップチューン. ダービー."
-    bio = "Rorasuketo is a ghost sports adventure being created and designed by Cam Norcross, and co-written by Tiffany VanPeenen. Inspired by and orchestrated with classic SNES sounds, the soundtrack was written by Michael Chadwick."
+    bio = "Rorasuketo is a ghost sports adventure created and designed by Cam Norcross, and co-written by Tiffany VanPeenen. Inspired by and orchestrated with classic SNES sounds, the soundtrack was written by Michael Chadwick."
 
     [params.content.soundtrack]
       enable = true
